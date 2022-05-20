@@ -1,0 +1,14 @@
+<root>
+    <styles>
+
+    </styles>
+
+    <scripts>
+        <include src="file://{resources}/scripts/containers/actionbars.js" /> 
+
+    </scripts>
+
+    <Panel>
+
+    </Panel>
+</root>

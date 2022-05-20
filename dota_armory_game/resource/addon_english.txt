@@ -1,0 +1,1414 @@
+"lang"
+{
+	"Language"		"English"
+	"Tokens"
+	{		
+		"game_mode_15"				"DOTA ARMORY"
+		"addon_game_name"			"DOTA ARMORY"
+		
+		//"DOTA_Basics"							"ABILITIES"
+		//"DOTA_Upgrades"							"ITEMS"
+		//"DOTA_Shop_Category_Basics"				"ABILITIES"
+		//"DOTA_Shop_Category_Upgrades"			"ITEMS"
+		
+
+		// loot 2.0 below
+		//
+		// 	RED
+		// <font color='#8b0000 '>STR</font>
+
+		//	-- GREEN
+		// <font color='#008000'>AGI</font> 
+		//  
+
+		// -- BLUE
+		// <font color='#ADD8E6'>INT</font> 
+		// 
+
+
+
+		// GameRules
+		"QuestKill" 		"Total enemies.(%quest_current_value%/%quest_target_value%)"
+
+		// Quests and npc dialog
+		"dialog_town_blacksmith_greet"			"Frank: "
+		"dialog_town_blacksmith_1"			"It's great to see you out and about. <br> One day you'll learn you can't stand around all day."
+
+		"dialog_town_blacksmith_2_greet"		"Mr. Smith:"
+		"dialog_town_blacksmith_2"			"Good workers are hard to find."
+
+		"dialog_town_alley_1_greet"		"Ace the Axolotl: "
+		"dialog_town_alley_1"			"I haven't been able to find a single regular size banana in months.<br> All I have are these large bananas. <br> Nobody needs this much banana."
+
+		"dialog_town_mayor_1_greet"		"Mayor Gerald: "
+		"dialog_town_mayor_1"		"Welcome traveller! Be safe and be sure to use our services!"
+
+
+		"dialog_town_local_cultist_1_greet"		"Local cultist: "
+		"dialog_town_local_cultist_1"			"I don't know you and I don't want to know you."
+		"dialog_town_local_cultist_1_reward_text"			" "
+
+
+		"dialog_smartest_man_alive_1_greet"	"Wise recluse: "
+		"dialog_smartest_man_alive_1"	"A lost adventurer saves no villages, rescues<br> no princess and finds no long lost treasures. <br>Speak with me if you have ever lost purpose and direction in your life."
+		"dialog_smartest_man_alive_2"	"You should seek to gain power and experience."
+
+
+		"dialog_road_annoying_golem_1_greet"			"Kim the Golem: "
+		"dialog_road_annoying_golem_1"					"Is that your property? It's different. It's unusual... "
+
+		"dialog_road_fisher_golem_1_greet"			"Sad Golem: "
+		"dialog_road_fisher_golem_1"		"I wish I wasn't so heavy. <br>All I want to do is go fishing with a boat. Even just once."
+
+
+		"dialog_road_gatekeeper_golem_1_greet"		"Gatekeeper: "
+		"dialog_road_gatekeeper_golem_1"			"Path is closed."
+
+		"dialog_portal_elder_golem_1_greet"		"Elder Golem: "
+		"dialog_portal_elder_golem_1"			"Long ago my ancestors used these pads to traverse the land.<br>They supported portals which could move them with now diminished and dormant magics.<br>I just want my kids back."
+
+
+		"dialog_sign_stonethrow_pond_1_greet"		"Wood Sign: "		
+		"dialog_sign_stonethrow_pond_1"					"Welcome to the beautiful Stonethrow pond. <br>No littering.<br>Loitering is permitted."
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		"DOTA_Tooltip_Ability_hero_custom_stats_datadriven"						"Regeneration"
+		"DOTA_Tooltip_Ability_hero_custom_stats_datadriven_Description"		"Heroes passively regenerate a small percentage of health every 5 seconds. While in combat with enemies, health regeneration is reduced to 20%.<h1>Combat </h1>Combat state is gained by many contextual actions, or losely defined as inflicting offensive actions on enemies, or aiding an ally currently in combat.<h1>Mana Regeneration: <font color='#ADD8E6'>Intellect</font> Heroes</h1>Heroes with the primary attribute of <font color='#ADD8E6'>Intellect</font> regenerate 1 mana per <font color='#ADD8E6'>INT</font> every 5 seconds. If the caster has recently cast a mana spending ability, this mana regen effect is reduced to 30% for 5 seconds."
+
+		"DOTA_Tooltip_modifier_5_sec_rule_identifier_datadriven"		"Five Sec Rule"
+		"DOTA_Tooltip_modifier_5_sec_rule_identifier_datadriven_Description"		"Recently cast a spell, not eligible for regular mana regeneration values"
+
+
+
+		"popuptext_onkill_test_1"			"This is a test of using addon_english for popup text"
+
+		//
+		// shop items
+		//
+
+		"item_codex_of_critical_chance_datadriven"			"Codex of critical chance"
+		"item_codex_of_critical_chance_datadriven_Description"			"Learn more about various topics"
+
+
+
+
+		//--------------------
+		// NPC's
+		//--------------------
+
+		"DOTA_Tooltip_modifier_alive_npc_count_tracking_modifier"		"NPC tracking modifier"
+		"DOTA_Tooltip_modifier_alive_npc_count_tracking_modifier_Description"		"This modifier increments and decrements total alive npc variable"
+
+		"DOTA_Tooltip_Ability_npc_data_ability_datadriven"		"NPC data ability"
+		"DOTA_Tooltip_Ability_npc_data_ability_datadriven_Description"		"This ability is used for npc data"
+		"DOTA_Tooltip_Ability_npc_data_ability_datadriven_auto_attack_miss_chance"		"AUTO ATTACK MISS CHANCE: %"
+
+
+		"DOTA_Tooltip_modifier_npc_scaling_modifier_remove_me_to_init_scaling_function_datadriven"		"Scaling Modifier"
+		"DOTA_Tooltip_modifier_npc_scaling_modifier_remove_me_to_init_scaling_function_datadriven_Description"		"When this modifier is removed this NPC will have its health and damage scaled."
+
+		"DOTA_Tooltip_modifier_npc_scaling_health_stacks_datadriven"			"Health modifier stack"
+		"DOTA_Tooltip_modifier_npc_scaling_health_stacks_datadriven_Description"			"This modifier represents health scaling used on npcs. 1 stack = 10 health."
+
+
+		// wolf
+		"npc_dota_operation_candle_lesser_wolf"			"Lesser Wolf"
+
+
+		"DOTA_Tooltip_Ability_oc_wolf_bleed"			"Crippling bleed"
+		"DOTA_Tooltip_Ability_oc_wolf_bleed_Description"			"Auto attacks apply a bleed effect when target under is %trigger_hp_percent%%  health for %bleed_duration% seconds. Damage is only dealt when the victim is moving. Damage cannot occur more than once every %damage_trigger_icd% seconds."
+		"DOTA_Tooltip_Ability_oc_wolf_bleed"			""
+		"DOTA_Tooltip_Ability_oc_wolf_bleed"			""
+		"DOTA_Tooltip_Ability_oc_wolf_bleed"			""
+
+		"DOTA_Tooltip_modifier_bleed_attack_debuff_datadriven"			"Bleeding"
+		"DOTA_Tooltip_modifier_bleed_attack_debuff_datadriven_Description"			"Bleeding while moving. Damage is inflicted if moving while active. Damage has an internal cooldown."
+
+
+		// vermin
+		"DOTA_Tooltip_Ability_vermin_vision_reduce"			"No more Candle"
+		"DOTA_Tooltip_Ability_vermin_vision_reduce_Description"			"Auto attacks have a %proc_chance% % chance to reduce the targets vision by %vision_reduction% for %debuff_duration% seconds."
+
+		"DOTA_Tooltip_modifier_vision_reduced_datadriven"		"No More Candle"
+		"DOTA_Tooltip_modifier_vision_reduced_datadriven_Description"		"Vision reduced."
+
+		// kobold laborer
+		"DOTA_Tooltip_Ability_laborer_shovel_smack"			"Shovel Smack"
+		"DOTA_Tooltip_Ability_laborer_shovel_smack_Description"		"Auto attacks have a %proc_chance% % chance to deal %health_percent_in_dmg% % target max health in damage. This cannot occur more than once every %internal_cooldown%."
+
+
+		// kobold slavehandler
+
+		"npc_dota_operation_candle_kobold_slavehandler"			"Kobold Slavehandler"
+
+		"DOTA_Tooltip_Ability_kobold_slavehandler_inspire"			"Inspire"
+		"DOTA_Tooltip_Ability_kobold_slavehandler_inspire_Description"			"Inspires a nearby ally to gain %evasion_bonus% % evasion for %duration% seconds. Slavehandlers have significantly reduced armor."
+		"DOTA_Tooltip_Ability_kobold_slavehandler_inspire_armor_bonus"			"ARMOR REDUCTION: "
+		"DOTA_Tooltip_Ability_kobold_slavehandler_inspire_lore"			"He who cast the first stone."
+
+		"DOTA_Tooltip_modifier_slavehandler_inspired_effect_datadriven"		"Inspired"
+		"DOTA_Tooltip_modifier_slavehandler_inspired_effect_datadriven_Description"		"Evasion increased."
+		
+		// greater lesser wolf
+
+		"DOTA_Tooltip_Ability_greater_lesser_wolf_rabid"			"Rabid"
+		"DOTA_Tooltip_Ability_greater_lesser_wolf_rabid_Description"			"Dealing damage has a %proc_chance% % chance to grant %attack_speed_bonus% attack speed for %duration% seconds. For the first %root_duration% seconds of Rabid effect the caster is rooted."
+
+
+
+		"DOTA_Tooltip_modifier_rabid_effect_datadriven"			"Rabid Effect"
+		"DOTA_Tooltip_modifier_rabid_effect_datadriven_Description"			"Attack speed increased."
+
+
+		// buff ogre
+		"npc_dota_operation_candle_buff_ogre"		"Buff Ogre"
+		"DOTA_Tooltip_Ability_buff_ogre_crit_attacks_datadriven"			"Down to business"
+		"DOTA_Tooltip_Ability_buff_ogre_crit_attacks_datadriven_Description"			"Auto attacks have a %crit_chance%% chance to do %crit_mult%% critical strike damage and stun the target for %stun_duration% seconds. Stun applications have an internal cooldown."
+
+		"DOTA_Tooltip_modifier_crit_stun_effect_datadriven"			"Stunned."
+
+
+
+		// staff ogre
+		"npc_dota_operation_candle_staff_ogre"					"Staff Ogre"
+		"DOTA_Tooltip_Ability_staff_ogre_attacks_datadriven"		"Hinder"
+		"DOTA_Tooltip_Ability_staff_ogre_attacks_datadriven_Description"			"Auto attacks slow the target by %slow_pct%%  and reduces armor by %armor_reduction% for %slow_duration% seconds."
+		"DOTA_Tooltip_modifier_staff_ogre_slow_effect_datadriven"			"Hindered"
+		"DOTA_Tooltip_modifier_staff_ogre_slow_effect_datadriven_Description"		"Movement speed and armor reduced."
+
+		//--------------------
+		//Abilities
+		//--------------------
+
+
+		// game mechanics abilities 
+
+		"DOTA_Tooltip_Ability_armory_experience_system"			"Experience"
+		"DOTA_Tooltip_Ability_armory_experience_system_Description"			"When within 3700 units of a killed unit, gain %exp_per_kill% exp."
+		"DOTA_Tooltip_Ability_armory_experience_system_1to2"			"LEVEL 2 EXP REQUIRED: "
+		"DOTA_Tooltip_Ability_armory_experience_system_2to3"			"LEVEL 3 EXP REQUIRED: "
+		"DOTA_Tooltip_Ability_armory_experience_system_3to4"			"LEVEL 4 EXP REQUIRED: "
+		"DOTA_Tooltip_Ability_armory_experience_system_4to5"			"LEVEL 5 EXP REQUIRED: "
+		"DOTA_Tooltip_Ability_armory_experience_system_5to6"			"LEVEL 6+ EXP REQUIRED: "
+
+
+
+
+
+
+		"DOTA_Tooltip_Ability_armory_respawn_npcs"				"Respawn enemies"
+		"DOTA_Tooltip_Ability_armory_respawn_npcs_Description"			"Returns slain foes from the grave."
+		"DOTA_Tooltip_ability_armory_respawn_npcs_Lore"					"Enemies very recently slain will not be resurrected."
+
+
+
+
+		"DOTA_Tooltip_ability_example_ability"										"Detonation"
+		"DOTA_Tooltip_ability_example_ability_Description"				"Detonator channels a charge and releases an explosion around the caster if the channel is successful, dealing damage and knocking back all enemies in range of the explosion"
+		"DOTA_Tooltip_ability_example_ability_Lore"								""
+		"DOTA_Tooltip_ability_example_ability_duration"							"DURATION:"
+	    "DOTA_Tooltip_ability_example_ability_radius"							"RADIUS:"
+	    "DOTA_Tooltip_ability_example_ability_distance"							"KNOCKBACK DISTANCE:"
+	    "DOTA_Tooltip_ability_example_ability_height"							"KNOCKBACK HEIGHT:"
+		
+
+		"DOTA_Tooltip_Ability_armory_increase_difficulty"			"Increase Difficulty"
+		"DOTA_Tooltip_Ability_armory_increase_difficulty_Description"			"Increase difficulty of enemies."
+		"DOTA_Tooltip_Ability_armory_increase_difficulty_Lore"			"Base difficulty of enemies is determined by the highest level player active. Difficulty cannot be reduced below base difficulty."
+
+		"DOTA_Tooltip_Ability_armory_decrease_difficulty"			"Decrease Difficulty"
+		"DOTA_Tooltip_Ability_armory_decrease_difficulty_Description"			"Decrease difficulty of enemies."
+		"DOTA_Tooltip_Ability_armory_decrease_difficulty_Lore"			"Base difficulty of enemies is determined by the highest level player active. Difficulty cannot be reduced below base difficulty."
+
+		"DOTA_Tooltip_Ability_tp_ability_datadriven"			"Teleport"
+		"DOTA_Tooltip_Ability_tp_ability_datadriven_Description"			"After a %channel_time% second channel the caster is teleported home. Damage taken while channeling will interrupt the effect. Successful channels cause the ability to go on cooldown for %win_cd_duration% seconds."
+
+		"DOTA_Tooltip_Ability_player_teleport_datadriven"			"Create portal: Home"
+		"DOTA_Tooltip_Ability_player_teleport_datadriven_Description"			"After a short channel, the caster creates a portal for all allies to return home."
+		"DOTA_Tooltip_Ability_player_teleport_datadriven_Lore"			"Loitering in teleportation pads can lead to temporal displacement."
+
+
+
+		"DOTA_Tooltip_modifier_tp_effects_datadriven"			"Teleport"
+		"DOTA_Tooltip_modifier_tp_effects_datadriven_Description"			"Damage taken will interrupt this effect."
+
+		"DOTA_Tooltip_Ability_armory_interact_ability_datadriven"			"Interact"
+		"DOTA_Tooltip_Ability_armory_interact_ability_datadriven_Description"			"Attempts to interact with a nearby object."
+		"DOTA_Tooltip_Ability_armory_interact_ability_datadriven_Lore"			"INTERACT can be used to harvest gathering nodes such as pumpkins."
+
+
+		"DOTA_Tooltip_modifier_herb_node_gathered_datadriven"		"Herb gathered"
+		"DOTA_Tooltip_modifier_herb_node_gathered_datadriven_Description"		"<font color='#8b0000 '>STR</font>, <font color='#008000'>AGI</font>, <font color='#ADD8E6'>INT</font> increased."
+
+
+ 
+
+
+
+    	// LEGION COMMANDER
+    	"DOTA_Tooltip_Ability_legion_commander_whirlwind"			"Whirlwind"
+    	"DOTA_Tooltip_Ability_legion_commander_whirlwind_Description"			"Deal %ability_weapon_damage%%  BASE DAMAGE to up to %max_targets% enemies within %whirl_radius% units of the caster."
+
+
+
+
+		"DOTA_Tooltip_Ability_legion_commander_potion_pb"			"Health Potion"
+		"DOTA_Tooltip_Ability_legion_commander_potion_pb_Description"			"Heals the caster for %heal_max_hp_pct%%  max health."
+		"DOTA_Tooltip_Ability_legion_commander_potion_pb_crit_chance"			"BASE CRIT CHANCE: "
+		"DOTA_Tooltip_Ability_legion_commander_potion_pb_crit_damage"			"CRIT DAMAGE MULTIPLIER: "
+		"DOTA_Tooltip_Ability_legion_commander_potion_pb_auto_attack_miss_chance"			"AUTO ATTACK MISS CHANCE: "
+
+
+
+
+		"DOTA_Tooltip_Ability_legion_commander_strike"				"Strike"
+		"DOTA_Tooltip_Ability_legion_commander_strike_Description"				"Deal %ability_weapon_damage%%  BASE DAMAGE to the casters current right click attack target. Target must be within melee range."
+		"DOTA_Tooltip_Ability_legion_commander_strike_mana_cost"				"STRIKE MANA COST: "
+
+
+		
+		"DOTA_Tooltip_Ability_legion_commander_daze"						"Daze"
+		"DOTA_Tooltip_Ability_legion_commander_daze_Description"			"Slows all enemies within %aoe_radius% units by %slow_pct%%  for %debuff_duration% seconds."
+
+
+
+		"DOTA_Tooltip_Ability_legion_commander_lead"			"Lead to victory"
+		"DOTA_Tooltip_Ability_legion_commander_lead_Description"			"The caster charges forward %lead_distance% units. Lead to victory grants the caster the ability to stun a right click attack target for %stun_duration% seconds. Stun is applied at the start of an auto attack, and every lead to victory grants 1 stun application and does not stack."
+
+
+
+		"DOTA_Tooltip_Ability_legion_commander_cleave_datadriven"						"Commanders cleave"
+		"DOTA_Tooltip_Ability_legion_commander_cleave_datadriven_Description"			"Grants the caster Commanders Cleave. While active, auto attacks cleave nearby targets for %great_cleave_damage%%  physical damage for %buff_duration% seconds."
+		"DOTA_Tooltip_Ability_legion_commander_cleave_datadriven_great_cleave_radius"						"CLEAVE RADIUS: "
+
+		"DOTA_Tooltip_modifier_lc_cleave_active_datadriven"		"Commanders Cleave"
+		"DOTA_Tooltip_modifier_lc_cleave_active_datadriven_Description"		"Cleaving nearby auto attack targets."
+
+
+
+		// DROW RANGER
+
+
+
+		"DOTA_Tooltip_Ability_drow_slow_shot_datadriven"						"Piercing Frost Arrow"
+		"DOTA_Tooltip_Ability_drow_slow_shot_datadriven_Description"						"Fires a piercing arrow at the target location. This arrow deals %base_damage_weapon_damage%%  BASE DAMAGE and slows targets by %slow_pct%%  percent for %AbilityDuration% seconds. Piercing Frost Arrow shares a cooldown with auto attack and auto attacks apply Piercing Frost Arrow slow effect."
+		"DOTA_Tooltip_Ability_drow_slow_shot_datadriven_Lore"						"Piercing Frost Arrow in many cases replaces the need for auto attacks. However, Piercing Frost Arrow does not apply or proc effects that are auto attack related."
+
+
+		"DOTA_Tooltip_Ability_drow_snake_shot_datadriven"						"Snake Shot"
+		"DOTA_Tooltip_Ability_drow_snake_shot_datadriven_Description"						"Fire a deadly magical snake dealing %base_damage_weapon_damage%%  base damage."
+
+		"DOTA_Tooltip_Ability_drow_trackers_poison_datadriven"						"Tracking Poison"
+		"DOTA_Tooltip_Ability_drow_trackers_poison_datadriven_Description"						"Launches a semi-toxic arrow at the target dealing %base_damage_weapon_damage%%  base damage and poisoning them for %AbilityDuration% seconds. Tracking Poison causes the target takes %base_damage_weapon_damage%%  base damage every %dot_tick_interval% seconds and have their armor reduced by %debuff_armor_reduction%."
+
+		"DOTA_Tooltip_Ability_drow_on_the_hunt_datadriven"						"On the hunt"
+		"DOTA_Tooltip_Ability_drow_on_the_hunt_datadriven_Description"						"Increases movement speed by %proc_sprint%%  for %AbilityDuration% seconds. When struck by an auto attack there is a %proc_chance%% chance to grant this effect."
+
+
+		"DOTA_Tooltip_modifier_on_the_hunt_buff_datadriven"		"On the hunt"
+		"DOTA_Tooltip_modifier_on_the_hunt_buff_datadriven_Description"		"Movement speed increased significantly."
+
+
+
+		"DOTA_Tooltip_Ability_drow_fire_trap_datadriven"		"Fire Trap"
+		"DOTA_Tooltip_Ability_drow_fire_trap_datadriven_Description"		"Places a fire trap directly in front of the caster. After a %activation_time% second arming time the trap is eligible to trigger if any units are within a %trigger_radius% unit radius. Once Fire Trap is triggered it lasts for %activated_trap_duration% seconds and applies a damage over time effect to all units within %activated_trap_radius% units. Fire Trap damage over time effect deals %base_damage_weapon_damage%%  base damage, and %base_damage_weapon_damage%%  base damage every %dot_tick_interval% seconds."
+
+		"DOTA_Tooltip_modifier_fire_trap_debuff_magical_dispellable_datadriven"		"Fire Trap"
+		"DOTA_Tooltip_modifier_fire_trap_debuff_magical_dispellable_datadriven_Description"		"Taking magical fire damage"
+
+		"DOTA_Tooltip_Ability_drow_quiver_of_the_huntress_datadriven"		"Quiver of the huntress"
+		"DOTA_Tooltip_Ability_drow_quiver_of_the_huntress_datadriven_Description"		"Marks up to %max_targets% targets within %point_radius% units. After %launch_delay% seconds, marked targets are fired upon for %base_damage_weapon_damage%%  BASE DAMAGE as physical damage."
+
+
+
+
+		"DOTA_Tooltip_Ability_drow_ranger_potion_pb"		"Health Potion"
+		"DOTA_Tooltip_Ability_drow_ranger_potion_pb_Description"		"Heals the caster for %heal_max_hp_pct%%  max health."
+		"DOTA_Tooltip_Ability_drow_ranger_potion_pb_passive_increased_dmg_taken"		"PHYSICAL DAMAGE TAKEN INCREASE: "
+
+
+
+
+		// LINA
+		//
+
+		"DOTA_Tooltip_Ability_lina_ds"		"Dragon Slave"
+		"DOTA_Tooltip_Ability_lina_ds_Description"		"deals %pct_int_to_dmg%%  <font color='#ADD8E6'>intellect</font> as magic damage in a cone up to %dragon_slave_distance% units. Enemies hit by Dragon Slave are also slowed by %slow_pct%%  for %slow_duration% seconds."
+
+		"DOTA_Tooltip_Ability_lina_slow_burn"		"Slow Burn"
+		"DOTA_Tooltip_Ability_lina_slow_burn_Description"		"Ignite the target, slowly burning it for %pct_int_to_dmg_tick%%  <font color='#ADD8E6'>intellect</font> every %dot_tick_interval% seconds over %slow_burn_duration% seconds. Upon expiration or death, the target explodes for %pct_int_to_dmg_explosion%%  <font color='#ADD8E6'>intellect</font> up to %max_targets% enemies within %explosion_radius% units."
+
+
+
+
+
+
+
+
+		"DOTA_Tooltip_Ability_lina_fireball"		"Fireball"
+		"DOTA_Tooltip_Ability_lina_fireball_Description"		"Launches a powerful fireball at the target, dealing %pct_int_to_dmg%%  <font color='#ADD8E6'>intellect</font> as magic damage upon impact."
+
+		"DOTA_Tooltip_Ability_lina_fireball_two_datadriven"		"Fireball"
+		"DOTA_Tooltip_Ability_lina_fireball_two_datadriven_Description"		"Launches a Fireball at the target or location. Fireball deals %pct_int_to_dmg%%  <font color='#ADD8E6'>intellect</font> magic damage upon impact. Fireball pierces enemy targets up to %arrow_range% units away."
+
+
+
+
+		"DOTA_Tooltip_Ability_lina_blink"		"Teleport"
+		"DOTA_Tooltip_Ability_lina_blink_Description"		"Teleports the caster forward %blink_range% units."
+
+		"DOTA_Tooltip_Ability_lina_create_magic_datadriven"		"Create Mana"
+		"DOTA_Tooltip_Ability_lina_create_magic_datadriven_Description"		"The caster creates mana from thin air, granting %mana_bonus_pct%%  mana over %AbilityChannelTime% seconds. Successful channels grant the caster and all friendly <font color='#ADD8E6'>intellect</font> heroes within %int_buff_radius% units %buff_bonus_int% <font color='#ADD8E6'>INT</font> for %int_buff_duration% seconds."
+
+		"DOTA_Tooltip_modifier_mana_creation_int_buff_datadriven"		"Create Magic"
+		"DOTA_Tooltip_modifier_mana_creation_int_buff_datadriven_Description"		"<font color='#ADD8E6'>Intellect</font> increased."
+
+		"DOTA_Tooltip_Ability_lina_potion_pb"		"Potion"
+		"DOTA_Tooltip_Ability_lina_potion_pb_Description"		"Grants the caster %heal_max_hp_pct%%  total heal and mana."
+		"DOTA_Tooltip_Ability_lina_potion_pb_passive_increased_dmg_taken"		"PHYSICAL DAMAGE TAKEN INCREASE: "
+
+		// enchantress_enchant
+		//
+
+		"DOTA_Tooltip_Ability_enchantress_eye_of_the_forest_datadriven"		"Eyes of the forest"
+		"DOTA_Tooltip_Ability_enchantress_eye_of_the_forest_datadriven_Description"		"Protects or harms friends and enemies of the caster within a %target_point_aoe_radius% unit radius. Enchantress always gains <i>Blessing of the Forest</i> when cast. <h1><font color='#90EE90'>Friendly:</font> <i>Blessing of the Forest</i></h1> Heals the target for %pct_int_to_dmg%%  <font color='#ADD8E6'>Intellect</font> every %tick_rate% seconds over %hot_duration% seconds. Blessing of the Forest can be refreshed or increased to a maximum duration of %max_hot_duration% seconds.<h1><font color='#FF7F7F '>Enemies:</font> <i>Bane of the forest</i></h1> <h1> Deals %dot_pct_int_to_dmg%%  <font color='#ADD8E6'>Intellect</font> every %tick_rate% seconds over %dot_duration% seconds.</h1>"
+
+		"DOTA_Tooltip_modifier_blessing_of_the_forest_hot_datadriven"		"Blessing of the Forest"
+		"DOTA_Tooltip_modifier_blessing_of_the_forest_hot_datadriven_Description"		"Healing periodically for a percantage of the casters max <font color='#ADD8E6'>INT</font>."
+
+
+		"DOTA_Tooltip_Ability_enchantress_potion_pb"		"Potion"
+		"DOTA_Tooltip_Ability_enchantress_potion_pb_Description"		"Grants the caster %heal_max_hp_pct%%  max healh and mana."
+		"DOTA_Tooltip_Ability_enchantress_potion_pb_passive_increased_dmg_taken"		"PHYSICAL DAMAGE TAKEN INCREASE: "
+
+		"DOTA_Tooltip_Ability_enchantress_rejuvinate_datadriven"		"Rejuvinate"
+		"DOTA_Tooltip_Ability_enchantress_rejuvinate_datadriven_Description"		"Rejuvinates all allies within %cast_range% units currently benefitting from <i>Blessing of the Forest</i> effect, healing them for %pct_int_to_dmg%%  <font color='#ADD8E6'>INT</font> and increasing the duration of <i>Blessing of the Forest</i> by 24 seconds, up to 60 seconds max."
+
+		"DOTA_Tooltip_Ability_enchantress_prance_datadriven"		"Prance"
+		"DOTA_Tooltip_Ability_enchantress_prance_datadriven_Description"		"Increases movement speed by %proc_sprint%%  for %AbilityDuration% seconds."
+
+		"DOTA_Tooltip_modifier_prance_buff_datadriven"		"Prance"
+		"DOTA_Tooltip_modifier_prance_buff_datadriven_Description"		"Prancing gracefully"
+
+		"DOTA_Tooltip_Ability_enchantress_fallen_moon_datadriven"		"Moon Bolt"
+		"DOTA_Tooltip_Ability_enchantress_fallen_moon_datadriven_Description"		"Launches a powerful magical bolt at the target, dealing %pct_int_to_dmg%%  <font color='#ADD8E6'>INT</font> as magic damage."
+
+		"DOTA_Tooltip_Ability_enchantress_fallen_moon_revision_datadriven"		"Fallen Arrow"
+		"DOTA_Tooltip_Ability_enchantress_fallen_moon_revision_datadriven_Description"		"Launches an arrow at the target unit or location, dealing %pct_int_to_dmg%%  <font color='#ADD8E6'>Intellect</font> as magical damage. Upon impact, Fallen Arrow strikes for an addtional time, up to %max_targets% targets within %aoe_radius% units of the target, dealing %pct_int_to_dmg_aoe%%  <font color='#ADD8E6'>Intellect</font> as magical damage."
+
+
+
+		"DOTA_Tooltip_Ability_enchantress_regeneration_datadriven"		"reclaimation"
+		"DOTA_Tooltip_Ability_enchantress_regeneration_datadriven_Description"		"The caster reclaims spent mana from the enviroment, gaining total <font color='#ADD8E6'>INT</font> multiplied by %int_to_mana_ratio% in mana every %tick_rate% seconds. Any damage taken will remove this effect."
+
+		"DOTA_Tooltip_modifier_regeneration_buff_datadriven"		"Reclaimation"
+		"DOTA_Tooltip_modifier_regeneration_buff_datadriven_Description"		"Gaining mana from <font color='#ADD8E6'>INT</font>. Higher levels of this ability increase the int to mana ratio."
+
+		//------------------------
+		// Items
+		//------------------------
+
+    	// dungeon 1 set
+
+    	// legion commander
+
+    	// boots
+    	"DOTA_Tooltip_ability_item_lc_d1_white_boots_datadriven"				"LC_B D1 'Worn travellers pads' "
+    	"DOTA_Tooltip_ability_item_lc_d1_white_boots_datadriven_Description"				"Toggle effect: Grants movement speed at the cost of stamina."
+    	"DOTA_Tooltip_ability_item_lc_d1_white_boots_datadriven_bonus_base_damage"				"BASE DAMAGE: +"
+    	"DOTA_Tooltip_ability_item_lc_d1_white_boots_datadriven_bonus_movement_speed"				"MOVEMENT SPEED: +"
+    	"DOTA_Tooltip_ability_item_lc_d1_white_boots_datadriven_Lore"				"Perhaps not ideal, but workable."
+
+		"DOTA_Tooltip_ability_item_lc_d1_white_boots_active_datadriven"			"ACTIVE"
+		"DOTA_Tooltip_ability_item_lc_d1_white_boots_active_datadriven_Description"			"Draining stamina in exchange for movement speed. Stamina takes up to 1 minute to full regenerate."
+
+
+		"DOTA_Tooltip_ability_item_lc_d1_white_weapon_datadriven"			"LC_W D1 'Dull short sword' "
+		"DOTA_Tooltip_ability_item_lc_d1_white_weapon_datadriven_base_attack_time"			"BASE ATTACK TIME: "
+		"DOTA_Tooltip_ability_item_lc_d1_white_weapon_datadriven_weapon_damage_per_second"			"WEAPON DPS: "
+		"DOTA_Tooltip_ability_item_lc_d1_white_weapon_datadriven_Lore"			"If the blade cuts, use it."
+
+
+		"DOTA_Tooltip_ability_item_lc_d1_white_chest_datadriven"			"LC_C D1 'Adventurers gift' "
+		"DOTA_Tooltip_ability_item_lc_d1_white_chest_datadriven_bonus_armor"			"BONUS ARMOR: +"
+		"DOTA_Tooltip_ability_item_lc_d1_white_chest_datadriven_Lore"			"All heroes begin somewhere."
+
+
+		"DOTA_Tooltip_ability_item_lc_d1_white_helm_datadriven"			"LC_H D1 'Crude skullcap' "
+		"DOTA_Tooltip_ability_item_lc_d1_white_helm_datadriven_bonus_health_regen"			"HEALTH REGENERATION: +"
+		"DOTA_Tooltip_ability_item_lc_d1_white_helm_datadriven_Lore"			"As advertised."
+
+		"DOTA_Tooltip_ability_item_lc_d1_white_ring_datadriven"			"LC_R D1 'Forgotten promise ring' "
+		"DOTA_Tooltip_ability_item_lc_d1_white_ring_datadriven_bonus_mana_regen"			"BONUS MANA REGENERATION: +"
+
+		"DOTA_Tooltip_Ability_item_lc_d1_white_trinket_datadriven"			"LC_T D1 'Beast in a jar' "
+		"DOTA_Tooltip_Ability_item_lc_d1_white_trinket_datadriven_Description"			"Dealing damage has a %proc_chance% % chance to grant the caster %bonus_base_damage% base damage for %proc_duration% seconds. This effect cannot occur more than once every %proc_internal_cooldown% seconds."
+		"DOTA_Tooltip_Ability_item_lc_d1_white_trinket_datadriven_Lore"			"Seems misleading to say the least."
+
+		"DOTA_Tooltip_modifier_lc_d1_white_trinket_proc_datadriven"		"Beast in a jar"
+		"DOTA_Tooltip_modifier_lc_d1_white_trinket_proc_datadriven_Description"		"Base damage increased."
+
+
+    	// dungeon 2 green set
+
+    	// legion commander
+
+
+		"DOTA_Tooltip_Ability_item_lc_d2_green_helm_datadriven"		"LC_H D2 'Graverobbers cap'"
+		"DOTA_Tooltip_Ability_item_lc_d2_green_helm_datadriven_bonus_health"		"HEALTH: + "
+		"DOTA_Tooltip_Ability_item_lc_d2_green_helm_datadriven_bonus_base_damage"		"BASE DAMAGE: + "
+		"DOTA_Tooltip_Ability_item_lc_d2_green_helm_datadriven_bonus_movement_speed"		"MOVEMENT SPEED: + "
+
+
+		"DOTA_Tooltip_Ability_item_lc_d2_green_chest_datadriven"		"LC_C D2 'Graverobbers tunic'"
+		"DOTA_Tooltip_Ability_item_lc_d2_green_chest_datadriven_Description"		"Equip: While the caster is under %proc_health_percent_window%% health, right click attacks against the caster have a %proc_chance%% chance to grant +%bonus_armor% armor for %proc_duration% seconds. This effect cannot occur more than once every %proc_cooldown% seconds."
+		"DOTA_Tooltip_Ability_item_lc_d2_green_chest_datadriven_bonus_health"		"BONUS HEALTH: "
+		"DOTA_Tooltip_Ability_item_lc_d2_green_chest_datadriven_Lore"				"Dirt and holes included."
+
+
+
+		"DOTA_Tooltip_Ability_item_lc_d2_green_weapon_datadriven"					"LC_W D2 'Graverobbers bludgeon'"
+		"DOTA_Tooltip_Ability_item_lc_d2_green_weapon_datadriven_Description"		"Equip: Auto attacks have a %weapon_proc_chance%% chance to deal %proc_damage% pure damage."
+		"DOTA_Tooltip_Ability_item_lc_d2_green_weapon_datadriven_base_attack_time"					"BASE ATTACK TIME: "
+		"DOTA_Tooltip_Ability_item_lc_d2_green_weapon_datadriven_weapon_damage_per_second"					"WEAPON DPS: "
+		"DOTA_Tooltip_Ability_item_lc_d2_green_weapon_datadriven_bonus_attack_speed"					"BONUS ATTACK SPEED: +"
+		"DOTA_Tooltip_Ability_item_lc_d2_green_weapon_datadriven_thorns_damage"					"THORNS DAMAGE: +"
+		"DOTA_Tooltip_Ability_item_lc_d2_green_weapon_datadriven_Lore"			"Mysterious substance lingers in cracks of the bludgeon."
+
+
+		"DOTA_Tooltip_Ability_item_lc_d2_green_trinket_datadriven"			"LC_T D2 'Graverobbers prize'"
+		"DOTA_Tooltip_Ability_item_lc_d2_green_trinket_datadriven_Description"			"Equip: Auto attacks have a %proc_chance%% chance to grant the caster %mana_proc% mana."
+
+		"DOTA_Tooltip_Ability_item_lc_d2_green_trinket_datadriven_bonus_health" 			"BONUS HEALTH: +"
+
+		"DOTA_Tooltip_Ability_item_lc_d2_green_ring_datadriven"				"LC_R 'Graverobbers keepsake'"
+		"DOTA_Tooltip_Ability_item_lc_d2_green_ring_datadriven_Description"				"On use: Grants the caster %on_use_bonus_evasion%% evasion for %on_use_duration% seconds."
+		"DOTA_Tooltip_Ability_item_lc_d2_green_ring_datadriven_bonus_evasion"				"BONUS EVASION: +"
+
+		"DOTA_Tooltip_modifier_lc_d2_green_ring_effect_datadriven"		"Graverobbers keepsake"
+		"DOTA_Tooltip_modifier_lc_d2_green_ring_effect_datadriven_Description"		"Evasion increased."
+
+
+
+
+
+
+
+
+
+
+
+
+		// new Items
+
+		// starter weapon
+
+		"DOTA_Tooltip_Ability_item_lc_starter_weapon_datadriven"				"LC_W(24) Starter blade"
+		"DOTA_Tooltip_Ability_item_lc_starter_weapon_datadriven_Description"				" "
+		"DOTA_Tooltip_Ability_item_lc_starter_weapon_datadriven_bonus_dps"				"DPS +"
+		"DOTA_Tooltip_Ability_item_lc_starter_weapon_datadriven_bonus_health"				"HEALTH +"
+		"DOTA_Tooltip_Ability_item_lc_starter_weapon_datadriven_Lore"				"An unusually strong and overbudgeted weapon gifted to curb long periods of misfortune."
+
+
+		"DOTA_Tooltip_Ability_item_lc_peasants_blade_weapon_datadriven"				"LC_W(2) Peasants Blade"
+		"DOTA_Tooltip_Ability_item_lc_peasants_blade_weapon_datadriven_Description"				" "
+		"DOTA_Tooltip_Ability_item_lc_peasants_blade_weapon_datadriven_bonus_dps"		"DPS +"
+
+		"DOTA_Tooltip_Ability_item_lc_peasants_helm_datadriven"				"LC_H(1) Peasants Hat"
+		"DOTA_Tooltip_Ability_item_lc_peasants_helm_datadriven_Description"				" "
+		"DOTA_Tooltip_Ability_item_lc_peasants_helm_datadriven_bonus_dps"		"DPS +"
+
+		"DOTA_Tooltip_Ability_item_lc_peasants_chest_datadriven"				"LC_C(1) Peasants Shirt"
+		"DOTA_Tooltip_Ability_item_lc_peasants_chest_datadriven_Description"				" "
+		"DOTA_Tooltip_Ability_item_lc_peasants_chest_datadriven_bonus_dps"		"DPS +"
+
+		"DOTA_Tooltip_Ability_item_lc_peasants_boots_datadriven"				"LC_B(1) Peasants Footwraps"
+		"DOTA_Tooltip_Ability_item_lc_peasants_boots_datadriven_Description"				" "
+		"DOTA_Tooltip_Ability_item_lc_peasants_boots_datadriven_bonus_dps"		"DPS +"
+
+		"DOTA_Tooltip_Ability_item_lc_peasants_ring_datadriven"				"LC_R(1) Peasants Coil"
+		"DOTA_Tooltip_Ability_item_lc_peasants_ring_datadriven_Description"				" "
+		"DOTA_Tooltip_Ability_item_lc_peasants_ring_datadriven_bonus_dps"				"DPS +"
+
+
+		"DOTA_Tooltip_Ability_item_lc_peasants_trinket_datadriven"				"LC_T(1) Peasants Trinket"
+		"DOTA_Tooltip_Ability_item_lc_peasants_trinket_datadriven_Description"				" "
+		"DOTA_Tooltip_Ability_item_lc_peasants_trinket_datadriven_bonus_dps"				"DPS +"
+
+
+
+
+
+
+
+
+		"DOTA_Tooltip_Ability_item_lc_brawlers_blade_weapon_datadriven"				"LC_W(24) Brawlers sword"
+		"DOTA_Tooltip_Ability_item_lc_brawlers_blade_weapon_datadriven_Description"				" "
+		"DOTA_Tooltip_Ability_item_lc_brawlers_blade_weapon_datadriven_bonus_dps"				"DPS +"
+
+		"DOTA_Tooltip_Ability_item_lc_brawlers_helm_datadriven"				"LC_H(24) Brawlers Helm"
+		"DOTA_Tooltip_Ability_item_lc_brawlers_helm_datadriven_Description"				" "
+		"DOTA_Tooltip_Ability_item_lc_brawlers_helm_datadriven_bonus_health"				"HEALTH +"
+		"DOTA_Tooltip_Ability_item_lc_brawlers_helm_datadriven_bonus_dps"				"DPS +"
+
+
+		"DOTA_Tooltip_Ability_item_lc_brawlers_chest_datadriven"				"LC_C(24) Brawlers chest"
+		"DOTA_Tooltip_Ability_item_lc_brawlers_chest_datadriven_Description"				" "
+		"DOTA_Tooltip_Ability_item_lc_brawlers_chest_datadriven_bonus_health"				"HEALTH +"
+		"DOTA_Tooltip_Ability_item_lc_brawlers_chest_datadriven_bonus_dps"				"DPS +"
+
+		"DOTA_Tooltip_Ability_item_lc_brawlers_boots_datadriven"				"LC_B(24) Brawlers boots"
+		"DOTA_Tooltip_Ability_item_lc_brawlers_boots_datadriven_Description"				" "
+		"DOTA_Tooltip_Ability_item_lc_brawlers_boots_datadriven_bonus_health"				"HEALTH +"
+		"DOTA_Tooltip_Ability_item_lc_brawlers_boots_datadriven_bonus_dps"				"DPS +"
+
+
+		"DOTA_Tooltip_Ability_item_lc_brawlers_ring_datadriven"				"LC_R(24) Brawlers ring"
+		"DOTA_Tooltip_Ability_item_lc_brawlers_ring_datadriven_Description"				" "
+		"DOTA_Tooltip_Ability_item_lc_brawlers_ring_datadriven_bonus_health"				"HEALTH +"
+		"DOTA_Tooltip_Ability_item_lc_brawlers_ring_datadriven_bonus_dps"				"DPS +"
+
+
+		"DOTA_Tooltip_Ability_item_lc_brawlers_trinket_datadriven"				"LC_T(24) Brawlers trinket"
+		"DOTA_Tooltip_Ability_item_lc_brawlers_trinket_datadriven_Description"				" "
+		"DOTA_Tooltip_Ability_item_lc_brawlers_trinket_datadriven_bonus_dps"				"DPS +"
+
+
+
+		//  Hunters set
+
+		"DOTA_Tooltip_Ability_item_lc_hunters_blade_weapon_datadriven"				"LC_W(24) hunters sword"
+		"DOTA_Tooltip_Ability_item_lc_hunters_blade_weapon_datadriven_Description"				" "
+		"DOTA_Tooltip_Ability_item_lc_hunters_blade_weapon_datadriven_bonus_dps"				"DPS +"
+
+		"DOTA_Tooltip_Ability_item_lc_hunters_helm_datadriven"				"LC_H(24) hunters Helm"
+		"DOTA_Tooltip_Ability_item_lc_hunters_helm_datadriven_Description"				" "
+		"DOTA_Tooltip_Ability_item_lc_hunters_helm_datadriven_bonus_health"				"HEALTH +"
+		"DOTA_Tooltip_Ability_item_lc_hunters_helm_datadriven_bonus_dps"				"DPS +"
+
+
+		"DOTA_Tooltip_Ability_item_lc_hunters_chest_datadriven"				"LC_C(24) hunters chest"
+		"DOTA_Tooltip_Ability_item_lc_hunters_chest_datadriven_Description"				" "
+		"DOTA_Tooltip_Ability_item_lc_hunters_chest_datadriven_bonus_health"				"HEALTH +"
+		"DOTA_Tooltip_Ability_item_lc_hunters_chest_datadriven_bonus_dps"				"DPS +"
+
+		"DOTA_Tooltip_Ability_item_lc_hunters_boots_datadriven"				"LC_B(24) hunters boots"
+		"DOTA_Tooltip_Ability_item_lc_hunters_boots_datadriven_Description"				" "
+		"DOTA_Tooltip_Ability_item_lc_hunters_boots_datadriven_bonus_health"				"HEALTH +"
+		"DOTA_Tooltip_Ability_item_lc_hunters_boots_datadriven_bonus_dps"				"DPS +"
+
+
+		"DOTA_Tooltip_Ability_item_lc_hunters_ring_datadriven"				"LC_R(24) hunters ring"
+		"DOTA_Tooltip_Ability_item_lc_hunters_ring_datadriven_Description"				" "
+		"DOTA_Tooltip_Ability_item_lc_hunters_ring_datadriven_bonus_health"				"HEALTH +"
+		"DOTA_Tooltip_Ability_item_lc_hunters_ring_datadriven_bonus_dps"				"DPS +"
+
+
+		"DOTA_Tooltip_Ability_item_lc_hunters_trinket_datadriven"				"LC_T(24) hunters trinket"
+		"DOTA_Tooltip_Ability_item_lc_hunters_trinket_datadriven_Description"				" "
+		"DOTA_Tooltip_Ability_item_lc_hunters_trinket_datadriven_bonus_dps"				"DPS +"
+
+
+		//  stalkers set
+
+		"DOTA_Tooltip_Ability_item_lc_stalkers_blade_weapon_datadriven"				"LC_W(40) stalkers sword"
+		"DOTA_Tooltip_Ability_item_lc_stalkers_blade_weapon_datadriven_Description"				" "
+		"DOTA_Tooltip_Ability_item_lc_stalkers_blade_weapon_datadriven_bonus_dps"				"DPS +"
+
+		"DOTA_Tooltip_Ability_item_lc_stalkers_helm_datadriven"				"LC_H(40) stalkers Helm"
+		"DOTA_Tooltip_Ability_item_lc_stalkers_helm_datadriven_Description"				" "
+		"DOTA_Tooltip_Ability_item_lc_stalkers_helm_datadriven_bonus_health"				"HEALTH +"
+		"DOTA_Tooltip_Ability_item_lc_stalkers_helm_datadriven_bonus_dps"				"DPS +"
+
+
+		"DOTA_Tooltip_Ability_item_lc_stalkers_chest_datadriven"				"LC_C(40) stalkers chest"
+		"DOTA_Tooltip_Ability_item_lc_stalkers_chest_datadriven_Description"				" "
+		"DOTA_Tooltip_Ability_item_lc_stalkers_chest_datadriven_bonus_health"				"HEALTH +"
+		"DOTA_Tooltip_Ability_item_lc_stalkers_chest_datadriven_bonus_dps"				"DPS +"
+
+		"DOTA_Tooltip_Ability_item_lc_stalkers_boots_datadriven"				"LC_B(40) stalkers boots"
+		"DOTA_Tooltip_Ability_item_lc_stalkers_boots_datadriven_Description"				" "
+		"DOTA_Tooltip_Ability_item_lc_stalkers_boots_datadriven_bonus_health"				"HEALTH +"
+		"DOTA_Tooltip_Ability_item_lc_stalkers_boots_datadriven_bonus_dps"				"DPS +"
+
+
+		"DOTA_Tooltip_Ability_item_lc_stalkers_ring_datadriven"				"LC_R(40) stalkers ring"
+		"DOTA_Tooltip_Ability_item_lc_stalkers_ring_datadriven_Description"				" "
+		"DOTA_Tooltip_Ability_item_lc_stalkers_ring_datadriven_bonus_health"				"HEALTH +"
+		"DOTA_Tooltip_Ability_item_lc_stalkers_ring_datadriven_bonus_dps"				"DPS +"
+
+
+		"DOTA_Tooltip_Ability_item_lc_stalkers_trinket_datadriven"				"LC_T(40) stalkers trinket"
+		"DOTA_Tooltip_Ability_item_lc_stalkers_trinket_datadriven_Description"				" "
+		"DOTA_Tooltip_Ability_item_lc_stalkers_trinket_datadriven_bonus_dps"				"DPS +"
+
+
+
+
+
+		//  assassins set
+
+		"DOTA_Tooltip_Ability_item_lc_assassins_blade_weapon_datadriven"				"LC_W(40) assassins sword"
+		"DOTA_Tooltip_Ability_item_lc_assassins_blade_weapon_datadriven_Description"				" "
+		"DOTA_Tooltip_Ability_item_lc_assassins_blade_weapon_datadriven_bonus_dps"				"DPS +"
+
+		"DOTA_Tooltip_Ability_item_lc_assassins_helm_datadriven"				"LC_H(40) assassins Helm"
+		"DOTA_Tooltip_Ability_item_lc_assassins_helm_datadriven_Description"				" "
+		"DOTA_Tooltip_Ability_item_lc_assassins_helm_datadriven_bonus_health"				"HEALTH +"
+		"DOTA_Tooltip_Ability_item_lc_assassins_helm_datadriven_bonus_dps"				"DPS +"
+
+
+		"DOTA_Tooltip_Ability_item_lc_assassins_chest_datadriven"				"LC_C(40) assassins chest"
+		"DOTA_Tooltip_Ability_item_lc_assassins_chest_datadriven_Description"				" "
+		"DOTA_Tooltip_Ability_item_lc_assassins_chest_datadriven_bonus_health"				"HEALTH +"
+		"DOTA_Tooltip_Ability_item_lc_assassins_chest_datadriven_bonus_dps"				"DPS +"
+
+		"DOTA_Tooltip_Ability_item_lc_assassins_boots_datadriven"				"LC_B(40) assassins boots"
+		"DOTA_Tooltip_Ability_item_lc_assassins_boots_datadriven_Description"				" "
+		"DOTA_Tooltip_Ability_item_lc_assassins_boots_datadriven_bonus_health"				"HEALTH +"
+		"DOTA_Tooltip_Ability_item_lc_assassins_boots_datadriven_bonus_dps"				"DPS +"
+
+
+		"DOTA_Tooltip_Ability_item_lc_assassins_ring_datadriven"				"LC_R(40) assassins ring"
+		"DOTA_Tooltip_Ability_item_lc_assassins_ring_datadriven_Description"				" "
+		"DOTA_Tooltip_Ability_item_lc_assassins_ring_datadriven_bonus_health"				"HEALTH +"
+		"DOTA_Tooltip_Ability_item_lc_assassins_ring_datadriven_bonus_dps"				"DPS +"
+
+
+		"DOTA_Tooltip_Ability_item_lc_assassins_trinket_datadriven"				"LC_T(40) assassins trinket"
+		"DOTA_Tooltip_Ability_item_lc_assassins_trinket_datadriven_Description"				" "
+		"DOTA_Tooltip_Ability_item_lc_assassins_trinket_datadriven_bonus_dps"				"DPS +"
+
+
+		//  miners set
+
+		"DOTA_Tooltip_Ability_item_lc_miners_blade_weapon_datadriven"				"LC_W(16) miners sword"
+		"DOTA_Tooltip_Ability_item_lc_miners_blade_weapon_datadriven_Description"				" "
+		"DOTA_Tooltip_Ability_item_lc_miners_blade_weapon_datadriven_bonus_dps"				"DPS +"
+
+		"DOTA_Tooltip_Ability_item_lc_miners_helm_datadriven"				"LC_H(16) miners Helm"
+		"DOTA_Tooltip_Ability_item_lc_miners_helm_datadriven_Description"				" "
+		"DOTA_Tooltip_Ability_item_lc_miners_helm_datadriven_bonus_health"				"HEALTH +"
+		"DOTA_Tooltip_Ability_item_lc_miners_helm_datadriven_bonus_dps"				"DPS +"
+
+
+		"DOTA_Tooltip_Ability_item_lc_miners_chest_datadriven"				"LC_C(16) miners chest"
+		"DOTA_Tooltip_Ability_item_lc_miners_chest_datadriven_Description"				" "
+		"DOTA_Tooltip_Ability_item_lc_miners_chest_datadriven_bonus_health"				"HEALTH +"
+		"DOTA_Tooltip_Ability_item_lc_miners_chest_datadriven_bonus_dps"				"DPS +"
+
+		"DOTA_Tooltip_Ability_item_lc_miners_boots_datadriven"				"LC_B(16) miners boots"
+		"DOTA_Tooltip_Ability_item_lc_miners_boots_datadriven_Description"				" "
+		"DOTA_Tooltip_Ability_item_lc_miners_boots_datadriven_bonus_health"				"HEALTH +"
+		"DOTA_Tooltip_Ability_item_lc_miners_boots_datadriven_bonus_dps"				"DPS +"
+
+
+		"DOTA_Tooltip_Ability_item_lc_miners_ring_datadriven"				"LC_R(16) miners ring"
+		"DOTA_Tooltip_Ability_item_lc_miners_ring_datadriven_Description"				" "
+		"DOTA_Tooltip_Ability_item_lc_miners_ring_datadriven_bonus_health"				"HEALTH +"
+		"DOTA_Tooltip_Ability_item_lc_miners_ring_datadriven_bonus_dps"				"DPS +"
+
+
+		"DOTA_Tooltip_Ability_item_lc_miners_trinket_datadriven"				"LC_T(16) miners trinket"
+		"DOTA_Tooltip_Ability_item_lc_miners_trinket_datadriven_Description"				" "
+		"DOTA_Tooltip_Ability_item_lc_miners_trinket_datadriven_bonus_health"				"HEALTH +"
+
+		//  ringleaders set
+
+		"DOTA_Tooltip_Ability_item_lc_ringleaders_blade_weapon_datadriven"				"LC_W(48) ringleaders sword"
+		"DOTA_Tooltip_Ability_item_lc_ringleaders_blade_weapon_datadriven_Description"				" "
+		"DOTA_Tooltip_Ability_item_lc_ringleaders_blade_weapon_datadriven_bonus_dps"				"DPS +"
+		"DOTA_Tooltip_Ability_item_lc_ringleaders_blade_weapon_datadriven_bonus_attack_speed"				"ATTACK SPEED +"
+
+
+		"DOTA_Tooltip_Ability_item_lc_ringleaders_helm_datadriven"				"LC_H(48) ringleaders Helm"
+		"DOTA_Tooltip_Ability_item_lc_ringleaders_helm_datadriven_Description"				" "
+		"DOTA_Tooltip_Ability_item_lc_ringleaders_helm_datadriven_bonus_dps"				"DPS +"
+		"DOTA_Tooltip_Ability_item_lc_ringleaders_helm_datadriven_bonus_health_regen"				"HEALTH REGEN +"
+
+		"DOTA_Tooltip_Ability_item_lc_ringleaders_chest_datadriven"				"LC_C(48) ringleaders chest"
+		"DOTA_Tooltip_Ability_item_lc_ringleaders_chest_datadriven_Description"				" "
+		"DOTA_Tooltip_Ability_item_lc_ringleaders_chest_datadriven_bonus_health"				"HEALTH +"
+
+		"DOTA_Tooltip_Ability_item_lc_ringleaders_boots_datadriven"				"LC_B(48) ringleaders boots"
+		"DOTA_Tooltip_Ability_item_lc_ringleaders_boots_datadriven_Description"				" "
+		"DOTA_Tooltip_Ability_item_lc_ringleaders_boots_datadriven_bonus_health"				"HEALTH +"
+		"DOTA_Tooltip_Ability_item_lc_ringleaders_boots_datadriven_bonus_dps"				"DPS +"
+
+
+		"DOTA_Tooltip_Ability_item_lc_ringleaders_ring_datadriven"				"LC_R(48) ringleaders ring"
+		"DOTA_Tooltip_Ability_item_lc_ringleaders_ring_datadriven_Description"				" "
+		"DOTA_Tooltip_Ability_item_lc_ringleaders_ring_datadriven_bonus_health"				"HEALTH +"
+		"DOTA_Tooltip_Ability_item_lc_ringleaders_ring_datadriven_bonus_move_speed"				"MOVE SPEED +"
+
+
+		"DOTA_Tooltip_Ability_item_lc_ringleaders_trinket_datadriven"				"LC_T(48) ringleaders trinket"
+		"DOTA_Tooltip_Ability_item_lc_ringleaders_trinket_datadriven_Description"				" "
+		"DOTA_Tooltip_Ability_item_lc_ringleaders_trinket_datadriven_bonus_health"				"HEALTH +"
+		"DOTA_Tooltip_Ability_item_lc_ringleaders_trinket_datadriven_bonus_move_speed"				"MOVE SPEED +"
+
+
+		//  srminers set
+
+		"DOTA_Tooltip_Ability_item_lc_srminers_blade_weapon_datadriven"				"LC_W(32) srminers sword"
+		"DOTA_Tooltip_Ability_item_lc_srminers_blade_weapon_datadriven_Description"				" "
+		"DOTA_Tooltip_Ability_item_lc_srminers_blade_weapon_datadriven_bonus_dps"				"DPS +"
+
+
+		"DOTA_Tooltip_Ability_item_lc_srminers_helm_datadriven"				"LC_H(32) srminers Helm"
+		"DOTA_Tooltip_Ability_item_lc_srminers_helm_datadriven_Description"				" "
+		"DOTA_Tooltip_Ability_item_lc_srminers_helm_datadriven_bonus_dps"				"DPS +"
+		"DOTA_Tooltip_Ability_item_lc_srminers_helm_datadriven_bonus_health"				"HEALTH +"
+
+		"DOTA_Tooltip_Ability_item_lc_srminers_chest_datadriven"				"LC_C(32) srminers chest"
+		"DOTA_Tooltip_Ability_item_lc_srminers_chest_datadriven_Description"				" "
+		"DOTA_Tooltip_Ability_item_lc_srminers_chest_datadriven_bonus_health"				"HEALTH +"
+		"DOTA_Tooltip_Ability_item_lc_srminers_chest_datadriven_bonus_dps"				"DPS +"
+
+		"DOTA_Tooltip_Ability_item_lc_srminers_boots_datadriven"				"LC_B(32) srminers boots"
+		"DOTA_Tooltip_Ability_item_lc_srminers_boots_datadriven_Description"				" "
+		"DOTA_Tooltip_Ability_item_lc_srminers_boots_datadriven_bonus_health"				"HEALTH +"
+
+
+		"DOTA_Tooltip_Ability_item_lc_srminers_ring_datadriven"				"LC_R(32) srminers ring"
+		"DOTA_Tooltip_Ability_item_lc_srminers_ring_datadriven_Description"				" "
+		"DOTA_Tooltip_Ability_item_lc_srminers_ring_datadriven_bonus_health"				"HEALTH +"
+
+
+		"DOTA_Tooltip_Ability_item_lc_srminers_trinket_datadriven"				"LC_T(32) srminers trinket"
+		"DOTA_Tooltip_Ability_item_lc_srminers_trinket_datadriven_Description"				" "
+		"DOTA_Tooltip_Ability_item_lc_srminers_trinket_datadriven_bonus_dps"				"DPS +"
+
+
+
+		// glorious set
+
+		"DOTA_Tooltip_Ability_item_lc_glorious_set_blade_weapon_datadriven"				"LC_W(16) glorious_set sword"
+		"DOTA_Tooltip_Ability_item_lc_glorious_set_blade_weapon_datadriven_Description"				"<h1>SET BONUS PASSIVE: </h1> Upon killing a unit, the caster is healed for %proc_heal_pct%%  max health, DPS is increased by %proc_dps% for %proc_duration% seconds."
+		"DOTA_Tooltip_Ability_item_lc_glorious_set_blade_weapon_datadriven_lore"				"SET ITEM[GLORIOUS]. Requires weapon and 1 other set [GLORIOUS] item."
+		"DOTA_Tooltip_Ability_item_lc_glorious_set_blade_weapon_datadriven_bonus_dps"				"DPS +"
+
+		"DOTA_Tooltip_modifier_glorious_set_glory_proc_buff_datadriven"		"Glory"
+		"DOTA_Tooltip_modifier_glorious_set_glory_proc_buff_datadriven_Description"		"Base damage increased."
+
+
+
+
+
+		"DOTA_Tooltip_Ability_item_lc_glorious_set_helm_datadriven"				"LC_H(16) glorious_set Helm"
+		"DOTA_Tooltip_Ability_item_lc_glorious_set_helm_datadriven_Description"				" "
+		"DOTA_Tooltip_Ability_item_lc_glorious_set_helm_datadriven_bonus_dps"				"DPS +"
+		"DOTA_Tooltip_Ability_item_lc_glorious_set_helm_datadriven_lore"				"SET ITEM[GLORIOUS]. Requires weapon and 1 other set [GLORIOUS] item."
+
+
+		"DOTA_Tooltip_Ability_item_lc_glorious_set_chest_datadriven"				"LC_C(16) glorious_set chest"
+		"DOTA_Tooltip_Ability_item_lc_glorious_set_chest_datadriven_Description"				" "
+		"DOTA_Tooltip_Ability_item_lc_glorious_set_chest_datadriven_bonus_dps"				"DPS +"
+		"DOTA_Tooltip_Ability_item_lc_glorious_set_chest_datadriven_lore"				"SET ITEM[GLORIOUS]. Requires weapon and 1 other set [GLORIOUS] item."
+
+		"DOTA_Tooltip_Ability_item_lc_glorious_set_boots_datadriven"				"LC_B(16) glorious_set boots"
+		"DOTA_Tooltip_Ability_item_lc_glorious_set_boots_datadriven_Description"				" "
+		"DOTA_Tooltip_Ability_item_lc_glorious_set_boots_datadriven_bonus_dps"				"DPS +"
+		"DOTA_Tooltip_Ability_item_lc_glorious_set_boots_datadriven_lore"				"SET ITEM[GLORIOUS]. Requires weapon and 1 other set [GLORIOUS] item."
+
+		"DOTA_Tooltip_Ability_item_lc_glorious_set_ring_datadriven"				"LC_R(16) glorious_set ring"
+		"DOTA_Tooltip_Ability_item_lc_glorious_set_ring_datadriven_Description"				" "
+		"DOTA_Tooltip_Ability_item_lc_glorious_set_ring_datadriven_bonus_dps"				"DPS +"
+		"DOTA_Tooltip_Ability_item_lc_glorious_set_ring_datadriven_lore"				"SET ITEM[GLORIOUS]. Requires weapon and 1 other set [GLORIOUS] item."
+
+		"DOTA_Tooltip_Ability_item_lc_glorious_set_trinket_datadriven"				"LC_T(16) glorious_set trinket"
+		"DOTA_Tooltip_Ability_item_lc_glorious_set_trinket_datadriven_Description"				" "
+		"DOTA_Tooltip_Ability_item_lc_glorious_set_trinket_datadriven_bonus_dps"				"DPS +"
+		"DOTA_Tooltip_Ability_item_lc_glorious_set_trinket_datadriven_lore"				"SET ITEM[GLORIOUS]. Requires weapon and 1 other set [GLORIOUS] item."
+
+
+
+		// strikers set
+
+		"DOTA_Tooltip_Ability_item_lc_strikers_set_blade_weapon_datadriven"				"LC_W(24) strikers_set sword"
+		"DOTA_Tooltip_Ability_item_lc_strikers_set_blade_weapon_datadriven_Description"				"SET BONUS: Auto attacks on targets between %proc_min_health_pct%%  health and %proc_max_health_pct%%  health grant Striking. Striking increases attack speed by %proc_attack_speed% for %proc_duration% seconds. This effect cannot occur more than once every %proc_internal_cd% seconds."
+		"DOTA_Tooltip_Ability_item_lc_strikers_set_blade_weapon_datadriven_bonus_dps"				"DPS +"
+		"DOTA_Tooltip_Ability_item_lc_strikers_set_blade_weapon_datadriven_lore"				"SET ITEM[STRIKERS]. Requires weapon and 1 other set [STRIKERS] item."
+
+		"DOTA_Tooltip_modifier_strikers_set_striking_proc_buff_datadriven"		"Striking"
+		"DOTA_Tooltip_modifier_strikers_set_striking_proc_buff_datadriven_Description"		"Attack speed significantly increased."
+
+		"DOTA_Tooltip_Ability_item_lc_strikers_set_helm_datadriven"				"LC_H(24) strikers_set Helm"
+		"DOTA_Tooltip_Ability_item_lc_strikers_set_helm_datadriven_Description"				" "
+		"DOTA_Tooltip_Ability_item_lc_strikers_set_helm_datadriven_bonus_dps"				"DPS +"
+		"DOTA_Tooltip_Ability_item_lc_strikers_set_helm_datadriven_lore"				"SET ITEM[STRIKERS]. Requires weapon and 1 other set [STRIKERS] item."
+
+
+		"DOTA_Tooltip_Ability_item_lc_strikers_set_chest_datadriven"				"LC_C(24) strikers_set chest"
+		"DOTA_Tooltip_Ability_item_lc_strikers_set_chest_datadriven_Description"				" "
+		"DOTA_Tooltip_Ability_item_lc_strikers_set_chest_datadriven_bonus_dps"				"DPS +"
+		"DOTA_Tooltip_Ability_item_lc_strikers_set_chest_datadriven_lore"				"SET ITEM[STRIKERS]. Requires weapon and 1 other set [STRIKERS] item."
+
+		"DOTA_Tooltip_Ability_item_lc_strikers_set_boots_datadriven"				"LC_B(24) strikers_set boots"
+		"DOTA_Tooltip_Ability_item_lc_strikers_set_boots_datadriven_Description"				" "
+		"DOTA_Tooltip_Ability_item_lc_strikers_set_boots_datadriven_bonus_dps"				"DPS +"
+		"DOTA_Tooltip_Ability_item_lc_strikers_set_boots_datadriven_lore"				"SET ITEM[STRIKERS]. Requires weapon and 1 other set [STRIKERS] item."
+
+		"DOTA_Tooltip_Ability_item_lc_strikers_set_ring_datadriven"				"LC_R(24) strikers_set ring"
+		"DOTA_Tooltip_Ability_item_lc_strikers_set_ring_datadriven_Description"				"PASSIVE: Taking damage grants %proc_bonus_attack_speed%  attack speed for %proc_duration%  seconds."
+		"DOTA_Tooltip_Ability_item_lc_strikers_set_ring_datadriven_bonus_dps"				"DPS +"
+		"DOTA_Tooltip_Ability_item_lc_strikers_set_ring_datadriven_lore"				"SET ITEM[STRIKERS]. Requires weapon and 1 other set [STRIKERS] item."
+
+
+		"DOTA_Tooltip_Ability_item_lc_strikers_set_trinket_datadriven"				"LC_T(24) strikers_set trinket"
+		"DOTA_Tooltip_Ability_item_lc_strikers_set_trinket_datadriven_Description"				" "
+		"DOTA_Tooltip_Ability_item_lc_strikers_set_trinket_datadriven_bonus_dps"				"DPS +"
+		"DOTA_Tooltip_Ability_item_lc_strikers_set_trinket_datadriven_lore"				"SET ITEM[STRIKERS]. Requires weapon and 1 other set [STRIKERS] item."
+
+
+		
+		// renown set
+
+		"DOTA_Tooltip_Ability_item_lc_renown_set_blade_weapon_datadriven"				"LC_W(32) renown_set sword"
+		"DOTA_Tooltip_Ability_item_lc_renown_set_blade_weapon_datadriven_Description"				" "
+		"DOTA_Tooltip_Ability_item_lc_renown_set_blade_weapon_datadriven_bonus_dps"				"DPS +"
+		"DOTA_Tooltip_Ability_item_lc_renown_set_blade_weapon_datadriven_bonus_health"				"HEALTH +"
+
+
+		"DOTA_Tooltip_Ability_item_lc_renown_set_helm_datadriven"				"LC_H(32) renown_set Helm"
+		"DOTA_Tooltip_Ability_item_lc_renown_set_helm_datadriven_Description"				"		PASSIVE: Taking damage grants the caster %bonus_mana_proc%  mana. This effect cannot occur more than once every %proc_cooldown% seconds."
+		"DOTA_Tooltip_Ability_item_lc_renown_set_helm_datadriven_bonus_dps"				"DPS +"
+		"DOTA_Tooltip_Ability_item_lc_renown_set_helm_datadriven_bonus_health"				"HEALTH +"
+
+
+		"DOTA_Tooltip_Ability_item_lc_renown_set_chest_datadriven"				"LC_C(32) renown_set chest"
+		"DOTA_Tooltip_Ability_item_lc_renown_set_chest_datadriven_Description"				" "
+		"DOTA_Tooltip_Ability_item_lc_renown_set_chest_datadriven_bonus_dps"				"DPS +"
+		"DOTA_Tooltip_Ability_item_lc_renown_set_chest_datadriven_bonus_health"				"HEALTH +"
+
+		"DOTA_Tooltip_Ability_item_lc_renown_set_boots_datadriven"				"LC_B(32) renown_set boots"
+		"DOTA_Tooltip_Ability_item_lc_renown_set_boots_datadriven_Description"				" "
+		"DOTA_Tooltip_Ability_item_lc_renown_set_boots_datadriven_bonus_dps"				"DPS +"
+		"DOTA_Tooltip_Ability_item_lc_renown_set_boots_datadriven_bonus_health"				"HEALTH +"
+
+		"DOTA_Tooltip_Ability_item_lc_renown_set_ring_datadriven"				"LC_R(32) renown_set ring"
+		"DOTA_Tooltip_Ability_item_lc_renown_set_ring_datadriven_Descriptipon"				" "
+		"DOTA_Tooltip_Ability_item_lc_renown_set_ring_datadriven_bonus_dps"				"DPS +"
+		"DOTA_Tooltip_Ability_item_lc_renown_set_ring_datadriven_bonus_health"				"HEALTH +"
+
+
+		"DOTA_Tooltip_Ability_item_lc_renown_set_trinket_datadriven"				"LC_T(32) renown_set trinket"
+		"DOTA_Tooltip_Ability_item_lc_renown_set_trinket_datadriven_Description"				" "
+		"DOTA_Tooltip_Ability_item_lc_renown_set_trinket_datadriven_bonus_dps"				"DPS +"
+		"DOTA_Tooltip_Ability_item_lc_renown_set_trinket_datadriven_bonus_health"				"HEALTH +"
+
+		"DOTA_Tooltip_modifier_renown_set_bonus_proc_datadriven"			"Renown"
+		"DOTA_Tooltip_modifier_renown_set_bonus_proc_datadriven_Description"			"Movement speed increased."
+
+
+
+
+		
+		// unrelenting set
+
+		"DOTA_Tooltip_Ability_item_lc_unrelenting_set_blade_weapon_datadriven"				"LC_W(40) unrelenting_set sword"
+		"DOTA_Tooltip_Ability_item_lc_unrelenting_set_blade_weapon_datadriven_Description"				"SET BONUS: Auto attacks grant the caster %bonus_mana_proc% mana. "
+		"DOTA_Tooltip_Ability_item_lc_unrelenting_set_blade_weapon_datadriven_bonus_dps"				"DPS +"
+		"DOTA_Tooltip_Ability_item_lc_unrelenting_set_blade_weapon_datadriven_bonus_health"				"HEALTH +"
+		"DOTA_Tooltip_Ability_item_lc_unrelenting_set_blade_weapon_datadriven_lore"				"SET ITEM[UNRELENTING]. Requires weapon and 3 other set [UNRELENTING] item."
+
+
+		"DOTA_Tooltip_Ability_item_lc_unrelenting_set_helm_datadriven"				"LC_H(40) unrelenting_set helm"
+		"DOTA_Tooltip_Ability_item_lc_unrelenting_set_helm_datadriven_Description"				" "
+		"DOTA_Tooltip_Ability_item_lc_unrelenting_set_helm_datadriven_bonus_dps"				"DPS +"
+		"DOTA_Tooltip_Ability_item_lc_unrelenting_set_helm_datadriven_bonus_health"				"HEALTH +"
+		"DOTA_Tooltip_Ability_item_lc_unrelenting_set_helm_datadriven_lore"				"SET ITEM[UNRELENTING]. Requires weapon and 3 other set [UNRELENTING] item."
+
+
+		"DOTA_Tooltip_Ability_item_lc_unrelenting_set_chest_datadriven"				"LC_C(40) unrelenting_set chest"
+		"DOTA_Tooltip_Ability_item_lc_unrelenting_set_chest_datadriven_Description"				" "
+		"DOTA_Tooltip_Ability_item_lc_unrelenting_set_chest_datadriven_bonus_dps"				"DPS +"
+		"DOTA_Tooltip_Ability_item_lc_unrelenting_set_chest_datadriven_bonus_health"				"HEALTH +"
+		"DOTA_Tooltip_Ability_item_lc_unrelenting_set_chest_datadriven_lore"				"SET ITEM[UNRELENTING]. Requires weapon and 3 other set [UNRELENTING] item."
+
+		"DOTA_Tooltip_Ability_item_lc_unrelenting_set_boots_datadriven"				"LC_B(40) unrelenting_set boots"
+		"DOTA_Tooltip_Ability_item_lc_unrelenting_set_boots_datadriven_Description"				" "
+		"DOTA_Tooltip_Ability_item_lc_unrelenting_set_boots_datadriven_bonus_dps"				"DPS +"
+		"DOTA_Tooltip_Ability_item_lc_unrelenting_set_boots_datadriven_bonus_health"				"HEALTH +"
+		"DOTA_Tooltip_Ability_item_lc_unrelenting_set_boots_datadriven_lore"				"SET ITEM[UNRELENTING]. Requires weapon and 3 other set [UNRELENTING] item."
+
+		"DOTA_Tooltip_Ability_item_lc_unrelenting_set_ring_datadriven"				"LC_R(40) unrelenting_set ring"
+		"DOTA_Tooltip_Ability_item_lc_unrelenting_set_ring_datadriven_Description"				" "
+		"DOTA_Tooltip_Ability_item_lc_unrelenting_set_ring_datadriven_bonus_dps"				"DPS +"
+		"DOTA_Tooltip_Ability_item_lc_unrelenting_set_ring_datadriven_bonus_health"				"HEALTH +"
+		"DOTA_Tooltip_Ability_item_lc_unrelenting_set_ring_datadriven_lore"				"SET ITEM[UNRELENTING]. Requires weapon and 3 other set [UNRELENTING] item."
+
+
+		"DOTA_Tooltip_Ability_item_lc_unrelenting_set_trinket_datadriven"				"LC_T(40) unrelenting_set trinket"
+		"DOTA_Tooltip_Ability_item_lc_unrelenting_set_trinket_datadriven_Description"				" "
+		"DOTA_Tooltip_Ability_item_lc_unrelenting_set_trinket_datadriven_bonus_dps"				"DPS +"
+		"DOTA_Tooltip_Ability_item_lc_unrelenting_set_trinket_datadriven_bonus_health"				"HEALTH +"
+		"DOTA_Tooltip_Ability_item_lc_unrelenting_set_trinket_datadriven_lore"				"SET ITEM[UNRELENTING]. Requires weapon and 3 other set [UNRELENTING] item."
+
+
+
+
+		// renown set
+
+		"DOTA_Tooltip_Ability_item_lc_cursed_set_blade_weapon_datadriven"				"LC_W(24) cursed_set sword"
+		"DOTA_Tooltip_Ability_item_lc_cursed_set_blade_weapon_datadriven_Description"				"PASSIVE: Auto attacks deal %proc_max_health_pct%%  of the casters health to the target and caster."
+		"DOTA_Tooltip_Ability_item_lc_cursed_set_blade_weapon_datadriven_bonus_dps"				"DPS +"
+
+		"DOTA_Tooltip_Ability_item_lc_cursed_set_helm_datadriven"				"LC_H(24) cursed_set Helm"
+		"DOTA_Tooltip_Ability_item_lc_cursed_set_helm_datadriven_Description"				"PASSIVE: Every %proc_think_interval%  seconds the caster takes between %proc_damage_range_min%  and %proc_damage_range_max% damage."
+		"DOTA_Tooltip_Ability_item_lc_cursed_set_helm_datadriven_bonus_dps"				"DPS +"
+
+
+
+
+
+		"DOTA_Tooltip_Ability_item_lc_cursed_set_chest_datadriven"				"LC_C(24) cursed_set chest"
+		"DOTA_Tooltip_Ability_item_lc_cursed_set_chest_datadriven_Description"				"PASSIVE: Every %proc_heal_interval%  seconds the caster has a %proc_heal_chance%%  chance to heal for %proc_heal_value%."
+		"DOTA_Tooltip_Ability_item_lc_cursed_set_chest_datadriven_bonus_dps"				"DPS +"
+
+
+
+		"DOTA_Tooltip_Ability_item_lc_cursed_set_boots_datadriven"				"LC_B(24) cursed_set boots"
+		"DOTA_Tooltip_Ability_item_lc_cursed_set_boots_datadriven_Description"				"PASSIVE: Being victim of an auto attack slows the caster for %bonus_movement_speed% movement speed for %debuff_duration% sec."
+		"DOTA_Tooltip_Ability_item_lc_cursed_set_boots_datadriven_bonus_dps"				"DPS +"
+
+		"DOTA_Tooltip_modifier_cursed_boots_debuff_datadriven"		"Cursed boots"
+		"DOTA_Tooltip_modifier_cursed_boots_debuff_datadriven_Description"		"Slowed."
+
+
+		"DOTA_Tooltip_Ability_item_lc_cursed_set_ring_datadriven"				"LC_R(24) cursed_set ring"
+		"DOTA_Tooltip_Ability_item_lc_cursed_set_ring_datadriven_Description"				"PASSIVE: This ring is severely haunted. However, in exchange for being a gracious host the caster gains %cursed_bonus_attack_speed%  attack speed."
+		"DOTA_Tooltip_Ability_item_lc_cursed_set_ring_datadriven_bonus_dps"				"DPS +"
+
+
+		
+
+		"DOTA_Tooltip_Ability_item_lc_cursed_set_trinket_datadriven"				"LC_T(24) cursed_set trinket"
+		"DOTA_Tooltip_Ability_item_lc_cursed_set_trinket_datadriven_Description"				"<h1>ON USE:</h1> Attempts to heal caster for %on_use_heal%. This item has a chance to backfire and instead take %on_use_hurt%  magical damage. This trinket is not rigged in your favour."
+
+
+
+
+
+
+
+
+
+
+		"DOTA_Tooltip_Ability_item_lc_unjustified_set_blade_weapon_datadriven"				"LC_W(48) unjustified_set sword"
+		"DOTA_Tooltip_Ability_item_lc_unjustified_set_blade_weapon_datadriven_Description"				" "
+		"DOTA_Tooltip_Ability_item_lc_unjustified_set_blade_weapon_datadriven_bonus_dps"				"DPS +"
+		"DOTA_Tooltip_Ability_item_lc_unjustified_set_blade_weapon_datadriven_bonus_health"				"HEALTH +"
+		"DOTA_Tooltip_Ability_item_lc_unjustified_set_blade_weapon_datadriven_Lore"				"SET ITEM[UNJUSTIFIED]. Requires ring and 3 other set [UNJUSTIFIED] items."
+
+
+		"DOTA_Tooltip_Ability_item_lc_unjustified_set_helm_datadriven"				"LC_H(48) unjustified_set Helm"
+		"DOTA_Tooltip_Ability_item_lc_unjustified_set_helm_datadriven_Description"				" "
+		"DOTA_Tooltip_Ability_item_lc_unjustified_set_helm_datadriven_bonus_dps"				"DPS +"
+		"DOTA_Tooltip_Ability_item_lc_unjustified_set_helm_datadriven_bonus_health"				"HEALTH +"
+		"DOTA_Tooltip_Ability_item_lc_unjustified_set_helm_datadriven_Lore"				"SET ITEM[UNJUSTIFIED]. Requires ring and 3 other set [UNJUSTIFIED] items."
+
+
+
+		"DOTA_Tooltip_Ability_item_lc_unjustified_set_chest_datadriven"				"LC_C(48) unjustified_set chest"
+		"DOTA_Tooltip_Ability_item_lc_unjustified_set_chest_datadriven_Description"				" "
+		"DOTA_Tooltip_Ability_item_lc_unjustified_set_chest_datadriven_bonus_dps"				"DPS +"
+		"DOTA_Tooltip_Ability_item_lc_unjustified_set_chest_datadriven_bonus_health"				"HEALTH +"
+		"DOTA_Tooltip_Ability_item_lc_unjustified_set_chest_datadriven_Lore"				"SET ITEM[UNJUSTIFIED]. Requires ring and 3 other set [UNJUSTIFIED] items."
+
+		"DOTA_Tooltip_Ability_item_lc_unjustified_set_boots_datadriven"				"LC_B(48) unjustified_set boots"
+		"DOTA_Tooltip_Ability_item_lc_unjustified_set_boots_datadriven_Description"				" "
+		"DOTA_Tooltip_Ability_item_lc_unjustified_set_boots_datadriven_bonus_dps"				"DPS +"
+		"DOTA_Tooltip_Ability_item_lc_unjustified_set_boots_datadriven_Lore"				"SET ITEM[UNJUSTIFIED]. Requires ring and 3 other set [UNJUSTIFIED] items."
+
+		"DOTA_Tooltip_Ability_item_lc_unjustified_set_ring_datadriven"				"LC_R(48) unjustified_set ring"
+		"DOTA_Tooltip_Ability_item_lc_unjustified_set_ring_datadriven_Description"				"<h1>SET BONUS PASSIVE: </h1> DPS +%set_passive_bonus_dps%"
+		"DOTA_Tooltip_Ability_item_lc_unjustified_set_ring_datadriven_bonus_dps"				"DPS +"
+		"DOTA_Tooltip_Ability_item_lc_unjustified_set_ring_datadriven_Lore"				"SET ITEM[UNJUSTIFIED]. Requires ring and 3 other set [UNJUSTIFIED] items."
+
+		"DOTA_Tooltip_Ability_item_lc_unjustified_set_trinket_datadriven"				"LC_T(48) unjustified_set trinket"
+		"DOTA_Tooltip_Ability_item_lc_unjustified_set_trinket_datadriven_Description"				" "
+		"DOTA_Tooltip_Ability_item_lc_unjustified_set_trinket_datadriven_bonus_health"				"HEALTH +"
+		"DOTA_Tooltip_Ability_item_lc_unjustified_set_trinket_datadriven_Lore"				"SET ITEM[UNJUSTIFIED]. Requires ring and 3 other set [UNJUSTIFIED] items."
+
+
+
+
+
+
+		"DOTA_Tooltip_Ability_item_lc_storming_set_blade_weapon_datadriven"				"LC_W(48) storming_set sword"
+		"DOTA_Tooltip_Ability_item_lc_storming_set_blade_weapon_datadriven_Description"				"<h1>PASSIVE: STORMING</h1> Auto attacks have a %storming_proc_chance%%  chance to grant Storming for %storming_duration% seconds. While active every %storming_tick_interval% seconds enemies within a %storming_aoe_radius% unit radius have a very high chance to take %storming_damage% magical damage."
+		"DOTA_Tooltip_Ability_item_lc_storming_set_blade_weapon_datadriven_bonus_dps"				"DPS +"
+		"DOTA_Tooltip_Ability_item_lc_storming_set_blade_weapon_datadriven_bonus_health"				"HEALTH +"
+
+
+
+
+
+
+		"DOTA_Tooltip_Ability_item_lc_storming_set_helm_datadriven"				"LC_H(48) storming_set Helm"
+		"DOTA_Tooltip_Ability_item_lc_storming_set_helm_datadriven_Description"				" "
+		"DOTA_Tooltip_Ability_item_lc_storming_set_helm_datadriven_bonus_dps"				"DPS +"
+		"DOTA_Tooltip_Ability_item_lc_storming_set_helm_datadriven_bonus_health"				"HEALTH +"
+
+		"DOTA_Tooltip_Ability_item_lc_storming_set_chest_datadriven"				"LC_C(48) storming_set chest"
+		"DOTA_Tooltip_Ability_item_lc_storming_set_chest_datadriven_Description"				" "
+		"DOTA_Tooltip_Ability_item_lc_storming_set_chest_datadriven_bonus_dps"				"DPS +"
+		"DOTA_Tooltip_Ability_item_lc_storming_set_chest_datadriven_bonus_health"				"HEALTH +"
+
+		"DOTA_Tooltip_Ability_item_lc_storming_set_boots_datadriven"				"LC_B(48) storming_set boots"
+		"DOTA_Tooltip_Ability_item_lc_storming_set_boots_datadriven_Description"				" "
+		"DOTA_Tooltip_Ability_item_lc_storming_set_boots_datadriven_bonus_dps"				"DPS +"
+
+		"DOTA_Tooltip_Ability_item_lc_storming_set_ring_datadriven"				"LC_R(48) storming_set ring"
+		"DOTA_Tooltip_Ability_item_lc_storming_set_ring_datadriven_Description"				" "
+		"DOTA_Tooltip_Ability_item_lc_storming_set_ring_datadriven_bonus_health"				"HEALTH +"
+
+		"DOTA_Tooltip_Ability_item_lc_storming_set_trinket_datadriven"				"LC_T(48) storming_set trinket"
+		"DOTA_Tooltip_Ability_item_lc_storming_set_trinket_datadriven_Description"				" "
+		"DOTA_Tooltip_Ability_item_lc_storming_set_trinket_datadriven_bonus_dps"				"DPS +"
+		"DOTA_Tooltip_Ability_item_lc_storming_set_trinket_datadriven_bonus_attack_speed"				"ATTACK SPEED +"
+
+
+
+
+
+		// loot 2.0 below
+		//
+		// 	RED
+		// <font color='#8b0000 '>STR</font>
+
+		//	-- GREEN
+		// <font color='#008000'>AGI</font> 
+		//  
+
+		// -- BLUE
+		// <font color='#ADD8E6'>INT</font> 
+		// 
+
+
+		// item_i1_misc_rock_datadriven
+
+		"DOTA_Tooltip_Ability_item_i1_misc_rock_datadriven"				"1 ilvl 'Rock'"
+		"DOTA_Tooltip_Ability_item_i1_misc_rock_datadriven_Description"				"<h1>ON USE: Eat</h1><h1>Consume the rock for no reason.</h1><br><h1>PASSIVE:</h1><li>+%bonus_main_stats% <font color='#8b0000 '>STR</font>, <font color='#008000'>AGI</font> & <font color='#ADD8E6'>INT</font></li></br>"
+
+		"DOTA_Tooltip_Ability_item_i3_boots_crystal_datadriven"				"<font color='#008000'>3 ilvl Crystal Boots</font>"
+		"DOTA_Tooltip_Ability_item_i3_boots_crystal_datadriven_Description"				"<li>+%bonus_health% HEALTH</li> <li>+%bonus_all_stats% <font color='#8b0000 '>STR</font>, <font color='#008000'>AGI</font> & <font color='#ADD8E6'>INT</font></li><li>+%bonus_move_speed% MOVEMENT SPEED</li>"
+
+
+		"DOTA_Tooltip_Ability_item_i3_crystal_datadriven"				"<font color='#008000'>3 ilvl Crystal</font>"
+		"DOTA_Tooltip_Ability_item_i3_crystal_datadriven_Description"				"<li>+%bonus_health% HEALTH</li> <li>+%bonus_all_stats% <font color='#8b0000 '>STR</font>, <font color='#008000'>AGI</font> & <font color='#ADD8E6'>INT</font></li>"
+
+		"DOTA_Tooltip_Ability_item_i3_main_stat_str_sword_datadriven"				"<font color='#008000'>3 ilvl STR 'Foragers backup plan'</font>"
+		"DOTA_Tooltip_Ability_item_i3_main_stat_str_sword_datadriven_Description"				"<b>Requires primary attribute: <font color='#8b0000 '>STR</font></b><li>+%bonus_health% HEALTH</li> <li>+%bonus_str% <font color='#8b0000 '>STR</font></li>"
+
+
+		"DOTA_Tooltip_Ability_item_i3_main_stat_int_staff_datadriven"				"<font color='#008000'>3 ilvl INT 'Foragers wisdom'</font>"
+		"DOTA_Tooltip_Ability_item_i3_main_stat_int_staff_datadriven_Description"				"<b>Requires primary attribute: <font color='#ADD8E6 '>INT</font></b><li>+%bonus_health% HEALTH</li> <li>+%bonus_int% <font color='#ADD8E6 '>INT</font></li>"
+
+
+		"DOTA_Tooltip_Ability_item_i3_main_stat_agi_dagger_datadriven"				"<font color='#008000'>3 ilvl AGI 'Foragers plan'</font>"
+		"DOTA_Tooltip_Ability_item_i3_main_stat_agi_dagger_datadriven_Description"				"<b>Requires primary attribute: <font color='#008000 '>AGI</font></b><li>+%bonus_health% HEALTH</li> <li>+%bonus_agi% <font color='#008000 '>AGI</font></li>"
+
+
+		// 5 ilvl
+
+		"DOTA_Tooltip_Ability_item_i5_misc_focusing_lense_datadriven"				"5 ilvl Focusing Lense"
+		"DOTA_Tooltip_Ability_item_i5_misc_focusing_lense_datadriven_Description"				"<li>+%bonus_damage_pct%%  DAMAGE</li>"
+
+		"DOTA_Tooltip_Ability_item_i5_misc_quickstone_datadriven"				"5 ilvl Quickstone"
+		"DOTA_Tooltip_Ability_item_i5_misc_quickstone_datadriven_Description"				"<li>+%bonus_as%%  ATTACK SPEED</li>"
+
+		"DOTA_Tooltip_Ability_item_i5_misc_chancestone_datadriven"				"5 ilvl Chancestone"
+		"DOTA_Tooltip_Ability_item_i5_misc_chancestone_datadriven_Description"				"<li>+%bonus_crit_chance%%  CRIT CHANCE</li>"
+
+		"DOTA_Tooltip_Ability_item_i5_misc_furystone_datadriven"				"5 ilvl Furystone"
+		"DOTA_Tooltip_Ability_item_i5_misc_furystone_datadriven_Description"				"<li>+%bonus_crit_damage%%  CRIT DAMAGE</li>"
+
+
+		// 6 ilvl
+
+		"DOTA_Tooltip_Ability_item_i6_giants_toe_datadriven"				"6 ilvl 'Giants toe'"
+		"DOTA_Tooltip_Ability_item_i6_giants_toe_datadriven_Description"				"<li><font color='#8b0000 '>-%bonus_health% HEALTH</font></li><li>+%bonus_move_speed_pct%%  MOVE SPEED</li><li>+%bonus_model_scale%%  SIZE</li>"
+		"DOTA_Tooltip_Ability_item_i6_giants_toe_datadriven_Lore"				"HEALTH WARNING: Shrinking and unshrinking possibly hazardous, inconsistent or fun."
+
+
+		"DOTA_Tooltip_Ability_item_i6_fleas_knees_datadriven"				"6 ilvl 'Fleas Knees'"
+		"DOTA_Tooltip_Ability_item_i6_fleas_knees_datadriven_Description"				"<li>+%bonus_crit_chance%%  CRIT CHANCE</li><li><font color='#8b0000 '>-%bonus_move_speed_pct%%  MOVE SPEED</font></li><li><font color='#8b0000 '>-%bonus_model_scale%%  SIZE</font></li>"
+
+
+
+
+		"DOTA_Tooltip_Ability_item_i6_boots_crystal_datadriven"				"<font color='#008000'>6 ilvl Crystal Boots</font>"
+		"DOTA_Tooltip_Ability_item_i6_boots_crystal_datadriven_Description"				"<li>+%bonus_health% HEALTH</li> <li>+%bonus_all_stats% <font color='#8b0000 '>STR</font>, <font color='#008000'>AGI</font> & <font color='#ADD8E6'>INT</font></li><li>+%bonus_move_speed% MOVEMENT SPEED</li>"
+
+
+		"DOTA_Tooltip_Ability_item_i6_crystal_datadriven"				"<font color='#008000'>6 ilvl Crystal</font>"
+		"DOTA_Tooltip_Ability_item_i6_crystal_datadriven_Description"				"<li>+%bonus_health% HEALTH</li> <li>+%bonus_all_stats% <font color='#8b0000 '>STR</font>, <font color='#008000'>AGI</font> & <font color='#ADD8E6'>INT</font></li>"
+
+		"DOTA_Tooltip_Ability_item_i6_main_stat_str_sword_datadriven"				"<font color='#008000'>6 ilvl STR 'Adventurers sword'</font>"
+		"DOTA_Tooltip_Ability_item_i6_main_stat_str_sword_datadriven_Description"				"<b>Requires primary attribute: <font color='#8b0000 '>STR</font></b><li>+%bonus_health% HEALTH</li> <li>+%bonus_str% <font color='#8b0000 '>STR</font></li>"
+
+
+		"DOTA_Tooltip_Ability_item_i6_main_stat_int_staff_datadriven"				"<font color='#008000'>6 ilvl INT 'Adventurers walking stick'</font>"
+		"DOTA_Tooltip_Ability_item_i6_main_stat_int_staff_datadriven_Description"				"<b>Requires primary attribute: <font color='#ADD8E6 '>INT</font></b><li>+%bonus_health% HEALTH</li> <li>+%bonus_int% <font color='#ADD8E6 '>INT</font></li>"
+
+		"DOTA_Tooltip_Ability_item_i6_main_stat_agi_dagger_datadriven"				"<font color='#008000'>6 ilvl AGI 'Adventurers pocket knife'</font>"
+		"DOTA_Tooltip_Ability_item_i6_main_stat_agi_dagger_datadriven_Description"				"<b>Requires primary attribute: <font color='#008000 '>AGI</font></b><li>+%bonus_health% HEALTH</li> <li>+%bonus_agi% <font color='#008000 '>AGI</font></li>"
+
+		"DOTA_Tooltip_Ability_item_i6_main_stat_str_sword_sharpened_blade_datadriven"				"<font color='#2968ca'>6 ilvl STR 'Sharpened blade'</font>"
+		"DOTA_Tooltip_Ability_item_i6_main_stat_str_sword_sharpened_blade_datadriven_Description"				"<b>Requires primary attribute: <font color='#8b0000 '>STR</font></b><li>+%bonus_health% HEALTH</li> <li>+%bonus_str% <font color='#8b0000 '>STR</font></li><li>+%bonus_crit_damage%%  CRIT DAMAGE</li>"
+
+		"DOTA_Tooltip_Ability_item_i6_main_stat_int_staff_polished_battle_staff_datadriven"				"<font color='#2968ca'>6 ilvl INT 'Polished battle staff'</font>"
+		"DOTA_Tooltip_Ability_item_i6_main_stat_int_staff_polished_battle_staff_datadriven_Description"				"<b>Requires primary attribute: <font color='#ADD8E6 '>INT</font></b><li>+%bonus_health% HEALTH</li> <li>+%bonus_int% <font color='#ADD8E6 '>INT</font></li><li>+%bonus_crit_chance%%  CRIT CHANCE</li>"
+
+		"DOTA_Tooltip_Ability_item_i6_main_stat_agi_dagger_sharpened_dagger_datadriven"				"<font color='#2968ca'>6 ilvl AGI 'Sharpened dagger'</font>"
+		"DOTA_Tooltip_Ability_item_i6_main_stat_agi_dagger_sharpened_dagger_datadriven_Description"				"<b>Requires primary attribute: <font color='#008000 '>AGI</font></b><li>+%bonus_health% HEALTH</li> <li>+%bonus_agi% <font color='#008000 '>AGI</font></li><li>+%bonus_crit_chance%%  CRIT CHANCE</li>"
+
+		"DOTA_Tooltip_Ability_item_i6_main_stat_str_sword_sword_of_impending_storms_datadriven"				"<font color='#6a0dad'>6 ilvl STR 'Sword of impending storms'</font>"
+		"DOTA_Tooltip_Ability_item_i6_main_stat_str_sword_sword_of_impending_storms_datadriven_Description"				"<b>Requires primary attribute: <font color='#8b0000 '>STR</font></b><li>+%bonus_health% HEALTH</li> <li>+%bonus_str% <font color='#8b0000 '>STR</font></li><h1></h1><h1>PASSIVE: STORMING</h1> Auto attacks have a %storming_proc_chance%%  chance to grant Storming for %storming_duration% seconds. While active every %storming_tick_interval% seconds enemies within a %storming_aoe_radius% unit radius have a very high chance to take %storming_damage% magical damage.</h1>"
+
+		"DOTA_Tooltip_modifier_storming_buff_effect_datadriven"			"Storming Effect"
+		"DOTA_Tooltip_modifier_storming_buff_effect_datadriven_Description"			"Chance to deal a percentage of base damage to nearby targets every few seconds."
+
+		"DOTA_Tooltip_Ability_item_i6_main_stat_int_staff_battle_staff_of_guidance_datadriven"				"<font color='#6a0dad'>6 ilvl INT 'Battle staff of guidance'</font>"
+		"DOTA_Tooltip_Ability_item_i6_main_stat_int_staff_battle_staff_of_guidance_datadriven_Description"				"<b>Requires primary attribute: <font color='#ADD8E6 '>INT</font></b><li>+%bonus_health% HEALTH</li> <li>+%bonus_int% <font color='#ADD8E6 '>INT</font></li><h1></h1><h1>PASSIVE: GUIDANCE</h1> Allies within %aura_radius% units gain +%aura_bonus_movespeed_pct%%  movement speed."
+
+		"DOTA_Tooltip_modifier_item_guidance_datadriven_aura"			"Guidance"
+		"DOTA_Tooltip_modifier_item_guidance_datadriven_aura_Description"			"Movement speed increased by a percentage."
+
+		"DOTA_Tooltip_Ability_item_i6_main_stat_agi_dagger_dagger_of_striking_datadriven"				"<font color='#6a0dad'>6 ilvl AGI 'Dagger of striking'</font>"
+		"DOTA_Tooltip_Ability_item_i6_main_stat_agi_dagger_dagger_of_striking_datadriven_Description"				"<b>Requires primary attribute: <font color='#008000 '>AGI</font></b><li>+%bonus_health% HEALTH</li> <li>+%bonus_agi% <font color='#008000 '>AGI</font></li><h1></h1><h1>PASSIVE: STRIKING</h1> Dealing damage to targets between %proc_min_health_pct%%  health and %proc_max_health_pct%%  health grant Striking. Striking increases attack speed by %proc_attack_speed% for %proc_duration% seconds. This effect cannot occur more than once every %proc_internal_cd% seconds."
+
+		"DOTA_Tooltip_Ability_item_i6_berserking_bracers_datadriven"				"<font color='#2968ca'>6 ilvl 'berserking bracers'</font>"
+		"DOTA_Tooltip_Ability_item_i6_berserking_bracers_datadriven_Description"				"<li>+%bonus_health% HEALTH</li> <li>+%bonus_str% <font color='#8b0000 '>STR</font></li><li>+%bonus_crit_chance%%  CRIT CHANCE</li>"
+
+		"DOTA_Tooltip_Ability_item_i6_nimble_bracers_datadriven"				"<font color='#2968ca'>6 ilvl 'Nimble bands'</font>"
+		"DOTA_Tooltip_Ability_item_i6_nimble_bracers_datadriven_Description"				"<li>+%bonus_health% HEALTH</li> <li>+%bonus_agi% <font color='#008000 '>AGI</font></li><li>+%bonus_crit_chance%%  CRIT CHANCE</li>"
+
+		"DOTA_Tooltip_Ability_item_i6_thought_provoking_bracers_datadriven"				"<font color='#2968ca'>6 ilvl 'Thought provoking cuffs'</font>"
+		"DOTA_Tooltip_Ability_item_i6_thought_provoking_bracers_datadriven_Description"				"<li>+%bonus_health% HEALTH</li> <li>+%bonus_int% <font color='#ADD8E6 '>INT</font></li><li>+%bonus_crit_chance%%  CRIT CHANCE</li>"
+
+		"DOTA_Tooltip_Ability_item_i6_trinket_of_chance_datadriven"				"<font color='#2968ca'>6 ilvl 'Trinket of chance'</font>"
+		"DOTA_Tooltip_Ability_item_i6_trinket_of_chance_datadriven_Description"				"<h1><b>PASSIVE: PROC CHANCE</b></h1>Dealing damage has a chance to grant +%bonus_stats% <font color='#8b0000 '>STR</font>, <font color='#008000 '>AGI</font> or <font color='#ADD8E6 '>INT</font> for %trinket_proc_duration% seconds."
+		"DOTA_Tooltip_Ability_item_i6_trinket_of_chance_datadriven_Lore"				""
+
+		"DOTA_Tooltip_modifier_i6_trinket_of_chance_buff_str_datadriven"			"Trinket of chance"
+		"DOTA_Tooltip_modifier_i6_trinket_of_chance_buff_str_datadriven_Description"			"Strength increased."
+		"DOTA_Tooltip_modifier_i6_trinket_of_chance_buff_agi_datadriven"			"Trinket of chance"
+		"DOTA_Tooltip_modifier_i6_trinket_of_chance_buff_agi_datadriven_Description"			"Agility increased."
+		"DOTA_Tooltip_modifier_i6_trinket_of_chance_buff_int_datadriven"			"Trinket of chance"
+		"DOTA_Tooltip_modifier_i6_trinket_of_chance_buff_int_datadriven_Description"			"Intellect increased."
+
+		"DOTA_Tooltip_Ability_item_i6_trinket_of_certainty_datadriven"				"<font color='#2968ca'>6 ilvl 'Trinket of certainty'</font>"
+		"DOTA_Tooltip_Ability_item_i6_trinket_of_certainty_datadriven_Description"				"<h1>ON USE: </h1></h1>Grants +%bonus_stats% <font color='#8b0000 '>STR</font>, <font color='#008000 '>AGI</font> or <font color='#ADD8E6 '>INT</font> for %on_use_duration% seconds."
+
+		"DOTA_Tooltip_modifier_i6_trinket_of_certainty_buff_str_datadriven"			"Trinket of certainty"
+		"DOTA_Tooltip_modifier_i6_trinket_of_certainty_buff_str_datadriven_Description"			"Strength increased."
+		"DOTA_Tooltip_modifier_i6_trinket_of_certainty_buff_agi_datadriven"			"Trinket of certainty"
+		"DOTA_Tooltip_modifier_i6_trinket_of_certainty_buff_agi_datadriven_Description"			"Agility increased."
+		"DOTA_Tooltip_modifier_i6_trinket_of_certainty_buff_int_datadriven"			"Trinket of certainty"
+		"DOTA_Tooltip_modifier_i6_trinket_of_certainty_buff_int_datadriven_Description"			"Intellect increased."
+
+		// 8 ilvl
+		"DOTA_Tooltip_Ability_item_i8_main_stat_str_sword_datadriven"				"<font color='#008000'>8 ilvl STR 'Unwieldly sword'</font>"
+		"DOTA_Tooltip_Ability_item_i8_main_stat_str_sword_datadriven_Description"				"<b>Requires primary attribute: <font color='#8b0000 '>STR</font></b><li>+%bonus_health% HEALTH</li> <li>+%bonus_str% <font color='#8b0000 '>STR</font></li>"
+
+		"DOTA_Tooltip_Ability_item_i8_main_stat_int_staff_datadriven"				"<font color='#008000'>8 ilvl INT 'Unwieldly staff'</font>"
+		"DOTA_Tooltip_Ability_item_i8_main_stat_int_staff_datadriven_Description"				"<b>Requires primary attribute: <font color='#ADD8E6 '>INT</font></b><li>+%bonus_health% HEALTH</li> <li>+%bonus_int% <font color='#ADD8E6 '>INT</font></li>"
+
+		"DOTA_Tooltip_Ability_item_i8_main_stat_agi_dagger_datadriven"				"<font color='#008000'>8 ilvl AGI 'Unwieldly Dagger'</font>"
+		"DOTA_Tooltip_Ability_item_i8_main_stat_agi_dagger_datadriven_Description"				"<b>Requires primary attribute: <font color='#008000 '>AGI</font></b><li>+%bonus_health% HEALTH</li> <li>+%bonus_agi% <font color='#008000 '>AGI</font></li>"
+
+		// 9 ilvl
+		"DOTA_Tooltip_Ability_item_i9_boots_crystal_datadriven"				"<font color='#008000'>9 ilvl Crystal Boots</font>"
+		"DOTA_Tooltip_Ability_item_i9_boots_crystal_datadriven_Description"				"<li>+%bonus_health% HEALTH</li> <li>+%bonus_all_stats% <font color='#8b0000 '>STR</font>, <font color='#008000'>AGI</font> & <font color='#ADD8E6'>INT</font></li><li>+%bonus_move_speed% MOVEMENT SPEED</li>"
+
+		"DOTA_Tooltip_Ability_item_i9_crystal_datadriven"				"<font color='#008000'>9 ilvl Crystal</font>"
+		"DOTA_Tooltip_Ability_item_i9_crystal_datadriven_Description"				"<li>+%bonus_health% HEALTH</li> <li>+%bonus_all_stats% <font color='#8b0000 '>STR</font>, <font color='#008000'>AGI</font> & <font color='#ADD8E6'>INT</font></li>"
+
+		// 10 ilvl
+		"DOTA_Tooltip_Ability_item_i10_main_stat_str_sword_datadriven"				"<font color='#008000'>10 ilvl STR 'Pathmakers sword'</font>"
+		"DOTA_Tooltip_Ability_item_i10_main_stat_str_sword_datadriven_Description"				"<b>Requires primary attribute: <font color='#8b0000 '>STR</font></b><li>+%bonus_health% HEALTH</li> <li>+%bonus_str% <font color='#8b0000 '>STR</font></li>"
+
+		"DOTA_Tooltip_Ability_item_i10_main_stat_int_staff_datadriven"				"<font color='#008000'>10 ilvl INT 'Pathmakers staff'</font>"
+		"DOTA_Tooltip_Ability_item_i10_main_stat_int_staff_datadriven_Description"				"<b>Requires primary attribute: <font color='#ADD8E6 '>INT</font></b><li>+%bonus_health% HEALTH</li> <li>+%bonus_int% <font color='#ADD8E6 '>INT</font></li>"
+
+		"DOTA_Tooltip_Ability_item_i10_main_stat_agi_dagger_datadriven"				"<font color='#008000'>10 ilvl AGI 'Pathmakers Dagger'</font>"
+		"DOTA_Tooltip_Ability_item_i10_main_stat_agi_dagger_datadriven_Description"				"<b>Requires primary attribute: <font color='#008000 '>AGI</font></b><li>+%bonus_health% HEALTH</li> <li>+%bonus_agi% <font color='#008000 '>AGI</font></li>"
+
+		"DOTA_Tooltip_Ability_item_i10_misc_focusing_lense_datadriven"				"10 ilvl Focusing Lense"
+		"DOTA_Tooltip_Ability_item_i10_misc_focusing_lense_datadriven_Description"				"<li>+%bonus_damage_pct%%  DAMAGE</li>"
+
+		"DOTA_Tooltip_Ability_item_i10_misc_quickstone_datadriven"				"10 ilvl Smooth Quickstone"
+		"DOTA_Tooltip_Ability_item_i10_misc_quickstone_datadriven_Description"				"<li>+%bonus_as%%  ATTACK SPEED</li>"
+
+		"DOTA_Tooltip_Ability_item_i10_misc_chancestone_datadriven"				"10 ilvl Luckstone"
+		"DOTA_Tooltip_Ability_item_i10_misc_chancestone_datadriven_Description"				"<li>+%bonus_crit_chance%%  CRIT CHANCE</li>"
+
+		"DOTA_Tooltip_Ability_item_i10_misc_furystone_datadriven"				"10 ilvl Shatterstone"
+		"DOTA_Tooltip_Ability_item_i10_misc_furystone_datadriven_Description"				"<li>+%bonus_crit_damage%%  CRIT DAMAGE</li>"
+
+
+
+		"DOTA_Tooltip_Ability_item_i10_misc_convenient_keepsake_datadriven"				"<font color='#2968ca'>10 ilvl 'Convenient keepsake'</font>"
+		"DOTA_Tooltip_Ability_item_i10_misc_convenient_keepsake_datadriven_Description"				"<li>+%bonus_health% HEALTH</li><li>+%bonus_crit_chance%%  CRIT CHANCE</li><li>+%bonus_crit_damage%%  CRIT DAMAGE</li>"
+
+
+		// 11 ilvl
+		"DOTA_Tooltip_Ability_item_i11_main_stat_int_staff_usually_reliable_staff_datadriven"				"<font color='#2968ca'>11 ilvl INT 'Usually Reliable Staff'</font>"
+		"DOTA_Tooltip_Ability_item_i11_main_stat_int_staff_usually_reliable_staff_datadriven_Description"				"<b>Requires primary attribute: <font color='#ADD8E6 '>INT</font></b><li>+%bonus_health% HEALTH</li> <li>+%bonus_int% <font color='#ADD8E6 '>INT</font></li><li>+%bonus_crit_chance%%  CRIT CHANCE"
+
+		"DOTA_Tooltip_Ability_item_i11_misc_robes_of_the_unusual_datadriven"				"<font color='#2968ca'>11 ilvl 'Robes of the unusual'</font>"
+		"DOTA_Tooltip_Ability_item_i11_misc_robes_of_the_unusual_datadriven_Description"				"<li>+%bonus_health% HEALTH</li><li>+%bonus_int% <font color='#ADD8E6 '>INT</font></li><li>+%bonus_crit_damage%%  CRIT DAMAGE</li>"
+
+
+		"DOTA_Tooltip_Ability_item_i11_main_stat_agi_dagger_dagger_of_indifference_datadriven"			"<font color='#2968ca'>11 ilvl AGI 'Dagger of Indifference'</font>"
+		"DOTA_Tooltip_Ability_item_i11_main_stat_agi_dagger_dagger_of_indifference_datadriven_Description"				"<b>Requires primary attribute: <font color='#008000 '>AGI</font></b><li>+%bonus_health% HEALTH</li> <li>+%bonus_agi% <font color='#008000 '>AGI</font></li><li>+%bonus_crit_damage%%  CRIT DAMAGE</li>"
+
+
+
+		"DOTA_Tooltip_Ability_item_i11_misc_tunic_of_difference_datadriven"				"<font color='#2968ca'>11 ilvl 'Tunic of Difference'</font>"
+		"DOTA_Tooltip_Ability_item_i11_misc_tunic_of_difference_datadriven_Description"				"<li>+%bonus_health% HEALTH</li><li>+%bonus_agi% <font color='#008000 '>AGI</font></li><li>+%bonus_crit_chance%%  CRIT CHANCE</li>"
+
+		"DOTA_Tooltip_Ability_item_i11_main_stat_str_sword_adequately_crafted_sword_datadriven"				"<font color='#2968ca'>11 ilvl STR 'Adequately crafted sword'</font>"
+		"DOTA_Tooltip_Ability_item_i11_main_stat_str_sword_adequately_crafted_sword_datadriven_Description"				"<b>Requires primary attribute: <font color='#8b0000 '>STR</font></b><li>+%bonus_health% HEALTH</li> <li>+%bonus_str% <font color='#8b0000 '>STR</font></li><li>+%bonus_crit_chance%%  CRIT CHANCE</li>"
+
+		"DOTA_Tooltip_Ability_item_i11_misc_nicely_forged_breastplate_datadriven"				"<font color='#2968ca'>11 ilvl 'Nicely forged breastplate'</font>"
+		"DOTA_Tooltip_Ability_item_i11_misc_nicely_forged_breastplate_datadriven_Description"				"<li>+%bonus_health% HEALTH</li><li>+%bonus_str% <font color='#8b0000 '>STR</font></li><li>+%bonus_crit_damage%%  CRIT DAMAGE</li>"
+
+
+
+		// 12 ilvl
+
+		"DOTA_Tooltip_Ability_item_i12_boots_crystal_datadriven"				"<font color='#008000'>12 ilvl Crystal Boots</font>"
+		"DOTA_Tooltip_Ability_item_i12_boots_crystal_datadriven_Description"				"<li>+%bonus_health% HEALTH</li> <li>+%bonus_all_stats% <font color='#8b0000 '>STR</font>, <font color='#008000'>AGI</font> & <font color='#ADD8E6'>INT</font></li><li>+%bonus_move_speed% MOVEMENT SPEED</li>"
+
+
+		"DOTA_Tooltip_Ability_item_i12_crystal_datadriven"				"<font color='#008000'>12 ilvl Crystal</font>"
+		"DOTA_Tooltip_Ability_item_i12_crystal_datadriven_Description"				"<li>+%bonus_health% HEALTH</li> <li>+%bonus_all_stats% <font color='#8b0000 '>STR</font>, <font color='#008000'>AGI</font> & <font color='#ADD8E6'>INT</font></li>"
+
+		"DOTA_Tooltip_Ability_item_i12_misc_antique_necklace_datadriven"				"<font color='#2968ca'>12 ilvl 'Antique necklace'</font>"
+		"DOTA_Tooltip_Ability_item_i12_misc_antique_necklace_datadriven_Description"				"<li>+%bonus_health% HEALTH</li><li>+%bonus_int% <font color='#ADD8E6 '>INT</font></li><li>+%bonus_move_speed% MOVE SPEED</li>"
+
+		"DOTA_Tooltip_Ability_item_i12_misc_hardened_brace_datadriven"				"<font color='#2968ca'>12 ilvl 'Hardened brace'</font>"
+		"DOTA_Tooltip_Ability_item_i12_misc_hardened_brace_datadriven_Description"				"<li>+%bonus_health% HEALTH</li><li>+%bonus_str% <font color='#8b0000 '>STR</font></li><li>+%bonus_attack_speed% ATTACK SPEED</li>"
+
+		"DOTA_Tooltip_Ability_item_i12_misc_agile_shoulderguard_datadriven"				"<font color='#2968ca'>12 ilvl 'Agile shoudlerguard'</font>"
+		"DOTA_Tooltip_Ability_item_i12_misc_agile_shoulderguard_datadriven_Description"				"<li>+%bonus_health% HEALTH</li><li>+%bonus_agi% <font color='#008000 '>AGI</font></li><li>+%bonus_attack_speed% ATTACK SPEED</li>"
+
+
+
+
+		"DOTA_Tooltip_Ability_item_i12_misc_Pauldrons_of_the_unraveler_datadriven"				"<font color='#6a0dad'>12 ilvl 'Pauldrons of the unraveler'</font>"
+		"DOTA_Tooltip_Ability_item_i12_misc_Pauldrons_of_the_unraveler_datadriven_Description"				"<li>+%bonus_health% HEALTH</li><li>+%bonus_str% <font color='#8b0000 '>STR</font><li>+%bonus_crit_chance%%  CRIT CHANCE</li><li>+%bonus_crit_damage%%  CRIT DAMAGE</li>"
+
+		"DOTA_Tooltip_Ability_item_i12_misc_shoulderguard_of_the_huntress_datadriven"				"<font color='#6a0dad'>12 ilvl 'Shoulderguard of the huntress'</font>"
+		"DOTA_Tooltip_Ability_item_i12_misc_shoulderguard_of_the_huntress_datadriven_Description"				"<li>+%bonus_health% HEALTH</li><li>+%bonus_agi% <font color='#008000 '>AGI</font><li>+%bonus_crit_chance%%  CRIT CHANCE</li><li>+%bonus_attack_speed%  ATTACK SPEED</li>"
+
+
+		"DOTA_Tooltip_Ability_item_i12_misc_noble_wizards_mantle_datadriven"				"<font color='#6a0dad'>12 ilvl 'Noble wizards mantle'</font>"
+		"DOTA_Tooltip_Ability_item_i12_misc_noble_wizards_mantle_datadriven_Description"				"<li>+%bonus_health% HEALTH</li><li>+%bonus_int% <font color='#ADD8E6 '>INT</font><li>+%bonus_crit_chance%%  CRIT CHANCE</li><li>+%bonus_move_speed%  MOVE SPEED</li>"
+
+
+		"DOTA_Tooltip_Ability_item_i12_main_stat_int_staff_great_menders_staff_of_perpetual_baa_datadriven"				"<font color='#6a0dad'>12 ilvl INT 'Great menders staff of perpetual b'aa</font>"
+		"DOTA_Tooltip_Ability_item_i12_main_stat_int_staff_great_menders_staff_of_perpetual_baa_datadriven_Description"				"<h1>ON USE:</h1>Turn a friend or foe into a sheep for %sheep_duration% seconds. While a sheep the target is slower, cuter and mostly harmless. Sheep are periodically healed and the effect is broken upon taking any damage.<br><br><b>Requires primary attribute: <font color='#ADD8E6 '>INT</font></b><li>+%bonus_health% HEALTH</li><li>+%bonus_int% <font color='#ADD8E6 '>INT</font>"
+		"DOTA_Tooltip_Ability_item_i12_main_stat_int_staff_great_menders_staff_of_perpetual_baa_datadriven_Lore"				"Cannot be used on ELITE or BOSS type enemies."
+
+		"DOTA_Tooltip_modifier_sheep_lua"		"Sheep"
+
+		"DOTA_Tooltip_Ability_item_i12_main_stat_int_staff_magus_staff_of_wrath_datadriven"				"<font color='#6a0dad'>12 ilvl INT 'Magus staff of wrath'</font>"
+		"DOTA_Tooltip_Ability_item_i12_main_stat_int_staff_magus_staff_of_wrath_datadriven_Description"				"<b>Requires primary attribute: <font color='#ADD8E6 '>INT</font></b><li>+%bonus_health% HEALTH</li> <li>+%bonus_int% <font color='#ADD8E6 '>INT</font></li><li>+%bonus_crit_chance%%  CRIT CHANCE</li><li>+%bonus_crit_damage%%  CRIT DAMAGE</li><br></br><h1>PASSIVE: WRATH</h1>Spending mana has a %proc_chance%%  chance to grant +%proc_bonus_int% <font color='#ADD8E6 '>INT</font> for <font color='#ADD8E6 '>INT</font> heroes within %proc_radius% units."
+
+		"DOTA_Tooltip_modifier_magus_of_wrath_proc_buff_datadriven"		"Wrath"
+		"DOTA_Tooltip_modifier_magus_of_wrath_proc_buff_datadriven_Description"		"INT increased."
+
+		"DOTA_Tooltip_Ability_item_i12_main_stat_str_sword_great_axe_of_rending_datadriven"				"<font color='#6a0dad'>12 ilvl STR 'Greataxe of rending'</font>"
+		"DOTA_Tooltip_Ability_item_i12_main_stat_str_sword_great_axe_of_rending_datadriven_Description"				"<b>Requires primary attribute: <font color='#8b0000 '>STR</font></b><li>+%bonus_health% HEALTH</li> <li>+%bonus_str% <font color='#8b0000 '>STR</font></li><li>+%bonus_crit_chance%%  CRIT CHANCE</li><li>+%bonus_crit_damage%%  CRIT DAMAGE</li><br></br><h1>ON USE: RENDING</h1>Causes the target to bleed for %bleed_tick_damage% physical damage every %bleed_tick_interval% seconds over %bleed_duration% seconds."
+
+		"DOTA_Tooltip_modifier_greataxe_of_rending_debuff_datadriven"		"Rending"
+
+
+
+		"DOTA_Tooltip_Ability_item_i12_main_stat_str_sword_swiftblade_of_sundering_datadriven"				"<font color='#6a0dad'>12 ilvl STR 'Swiftblade of sundering'</font>"
+		"DOTA_Tooltip_Ability_item_i12_main_stat_str_sword_swiftblade_of_sundering_datadriven_Description"				"<b>Requires primary attribute: <font color='#8b0000 '>STR</font></b><li>+%bonus_health% HEALTH</li> <li>+%bonus_str% <font color='#8b0000 '>STR</font></li><br></br><h1>PASSIVE: SUNDERING</h1> Auto attacks reduce the targets armor by %proc_armor_reduction% for %proc_duration% seconds."
+
+		"DOTA_Tooltip_modifier_swiftblade_of_sundering_debuff_datadriven"		"Sundered."
+		"DOTA_Tooltip_modifier_swiftblade_of_sundering_debuff_datadriven_Description"		"Armor reduced."
+
+		"DOTA_Tooltip_Ability_item_i12_main_stat_agi_dagger_dagger_of_elimination_datadriven"				"<font color='#6a0dad'>12 ilvl AGI 'Dagger of elimination'</font>"
+		"DOTA_Tooltip_Ability_item_i12_main_stat_agi_dagger_dagger_of_elimination_datadriven_Description"				"<b>Requires primary attribute: <font color='#008000 '>AGI</font></b><li>+%bonus_health% HEALTH</li> <li>+%bonus_agi% <font color='#008000 '>AGI</font></li><li>+%bonus_crit_chance%%  CRIT CHANCE</li><li>+%bonus_crit_damage%%  CRIT DAMAGE</li><br></br><h1>PASSIVE(Ranged heroes): ELIMINATION</h1> Auto attacks have a %proc_chance%%  chance to fire an arrow at the target after a short delay, dealing %proc_damage% physical damage."
+
+		"DOTA_Tooltip_Ability_item_i12_main_stat_agi_dagger_dagger_of_expedience_datadriven"				"<font color='#6a0dad'>12 ilvl AGI 'Dagger of expedience'</font>"
+		"DOTA_Tooltip_Ability_item_i12_main_stat_agi_dagger_dagger_of_expedience_datadriven_Description"				"<b>Requires primary attribute: <font color='#008000 '>AGI</font></b><li>+%bonus_health% HEALTH</li> <li>+%bonus_agi% <font color='#008000 '>AGI</font></li><li>+%bonus_crit_chance%%  CRIT CHANCE</li><li>+%bonus_attack_speed% ATTACK SPEED</li><br></br><h1>PASSIVE: EXPEDIENCE</h1> Dealing damage to a target above %proc_health_pct%%  health grants +%proc_bonus_attack_speed% ATTACK SPEED for %proc_duration% seconds."
+
+		"DOTA_Tooltip_Ability_item_i12_main_stat_agi_dagger_dagger_of_expedience_datadriven"				"<font color='#6a0dad'>12 ilvl AGI 'Dagger of expedience'</font>"
+
+		"DOTA_Tooltip_modifier_dagger_of_expedience_buff_datadriven"			"Expedience"
+		"DOTA_Tooltip_modifier_dagger_of_expedience_buff_datadriven_Description"			"Attack speed increased."
+
+
+
+
+		"DOTA_Tooltip_Ability_item_i12_trinket_of_more_chance_datadriven"				"<font color='#6a0dad'>12 ilvl 'Trinket of chance'</font>"
+		"DOTA_Tooltip_Ability_item_i12_trinket_of_more_chance_datadriven_Description"				"<h1><b>PASSIVE: PROC CHANCE</b></h1>Dealing damage has a chance to grant +%bonus_stats% <font color='#8b0000 '>STR</font>, <font color='#008000 '>AGI</font> or <font color='#ADD8E6 '>INT</font> for %trinket_proc_duration% seconds."
+		"DOTA_Tooltip_Ability_item_i12_trinket_of_more_chance_datadriven_Lore"				""
+
+		"DOTA_Tooltip_modifier_i12_trinket_of_more_chance_buff_str_datadriven"			"Trinket of chance"
+		"DOTA_Tooltip_modifier_i12_trinket_of_more_chance_buff_str_datadriven_Description"			"Strength increased."
+		"DOTA_Tooltip_modifier_i12_trinket_of_more_chance_buff_agi_datadriven"			"Trinket of chance"
+		"DOTA_Tooltip_modifier_i12_trinket_of_more_chance_buff_agi_datadriven_Description"			"Agility increased."
+		"DOTA_Tooltip_modifier_i12_trinket_of_more_chance_buff_int_datadriven"			"Trinket of chance"
+		"DOTA_Tooltip_modifier_i12_trinket_of_more_chance_buff_int_datadriven_Description"			"Intellect increased."
+
+		"DOTA_Tooltip_Ability_item_i12_trinket_of_more_certainty_datadriven"				"<font color='#6a0dad'>12 ilvl 'Trinket of certainty'</font>"
+		"DOTA_Tooltip_Ability_item_i12_trinket_of_more_certainty_datadriven_Description"				"<h1>ON USE: </h1></h1>Grants +%bonus_stats% <font color='#8b0000 '>STR</font>, <font color='#008000 '>AGI</font> or <font color='#ADD8E6 '>INT</font> for %on_use_duration% seconds."
+
+		"DOTA_Tooltip_modifier_i12_trinket_of_more_certainty_buff_str_datadriven"			"Trinket of certainty"
+		"DOTA_Tooltip_modifier_i12_trinket_of_more_certainty_buff_str_datadriven_Description"			"Strength increased."
+		"DOTA_Tooltip_modifier_i12_trinket_of_more_certainty_buff_agi_datadriven"			"Trinket of certainty"
+		"DOTA_Tooltip_modifier_i12_trinket_of_more_certainty_buff_agi_datadriven_Description"			"Agility increased."
+		"DOTA_Tooltip_modifier_i12_trinket_of_more_certainty_buff_int_datadriven"			"Trinket of certainty"
+		"DOTA_Tooltip_modifier_i12_trinket_of_more_certainty_buff_int_datadriven_Description"			"Intellect increased."
+
+
+		"DOTA_Tooltip_modifier_trinket_of_rapidity_buff_proc_datadriven"				"Trinket of rapidity"
+		"DOTA_Tooltip_modifier_trin`ket_of_rapidity_buff_proc_datadriven_Description"				"Attack speed increased."
+
+
+
+
+		"DOTA_Tooltip_Ability_item_i12_trinket_of_rapidity_datadriven"				"<font color='#6a0dad'>12 ilvl 'Trinket of rapidity'</font>"
+		"DOTA_Tooltip_Ability_item_i12_trinket_of_rapidity_datadriven_Description"				"<h1>PASSIVE: PROC CHANCE</h1>Auto attacks have a %proc_chance%%  chance to increase attack speed by %proc_bonus_attack_speed% for %proc_duration% seconds."
+
+
+		"DOTA_Tooltip_Ability_item_i12_healer_trinket_of_regeneration_datadriven"				"<font color='#6a0dad'>12 ilvl 'Trinket of regeneration'</font>"
+		"DOTA_Tooltip_Ability_item_i12_healer_trinket_of_regeneration_datadriven_Description"				"<h1>PASSIVE: PROC CHANCE</h1>Primary attribute: <font color='#ADD8E6 '>INT</font> heroes have a %mana_proc_chance%%  chance to gain %mana_proc% mana upon spending mana."
+		"DOTA_Tooltip_Ability_item_i12_healer_trinket_of_regeneration_datadriven_Lore"				"The proc effect of this item is unique. Multiples of this item will only function as 1."
+
+		"DOTA_Tooltip_Ability_item_i12_misc_finger_of_dagon_datadriven"				"<font color='#6a0dad'>12 ilvl 'Finger of dagon'</font>"
+		"DOTA_Tooltip_Ability_item_i12_misc_finger_of_dagon_datadriven_Description"				"<h1>ON USE: </h1>Instantly deal %dagon_damage% magical damage to the target."
+
+
+		"DOTA_Tooltip_Ability_item_i12_misc_wizards_tear_datadriven"			"<font color='#6a0dad'>12 ilvl 'Wizards tear'</font>"
+		"DOTA_Tooltip_Ability_item_i12_misc_wizards_tear_datadriven_Description"			"<h1>PASSIVE: PROC</h1> Auto attacks have a %proc_chance%%  chance to grant Wizards Woe for %proc_duration% secoonds. While active auto attacks deal %proc_damage_multiplier% * BASE ATTACK TIME as magic damage."
+		"DOTA_Tooltip_Ability_item_i12_misc_wizards_tear_datadriven_Lore"			"This item is said to have been forged from the teardrop of a wizard forced to melee."
+
+		"DOTA_Tooltip_modifier_wizards_tear_buff_datadriven"	"Wizards Woe"
+		"DOTA_Tooltip_modifier_wizards_tear_buff_datadriven_Description"	"Tears of a sad wizard cause you to deal magic damage on auto attacks."
+
+	}
+}
