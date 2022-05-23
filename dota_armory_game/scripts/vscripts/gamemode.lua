@@ -10,6 +10,7 @@ require('settings')
 require('events')
 -- filters.lua
 require('filters')
+require('heroes/damage')
 
 --[[
   This function should be used to set up Async precache calls at the beginning of the gameplay.

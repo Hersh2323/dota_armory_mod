@@ -64,7 +64,7 @@ function spell_cd(event)
 
 		local time_at_cast = GameRules:GetGameTime()
 		local time_at_cast_addition = time_at_cast+cd_time
-		caster:AttackNoEarlierThan(time_at_cast_addition)
+		--caster:AttackNoEarlierThan(time_at_cast_addition)
 	else
 	end
 

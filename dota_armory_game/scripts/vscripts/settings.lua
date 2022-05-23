@@ -190,7 +190,7 @@ DISABLE_KILLING_SPREE_ANNOUNCER = true -- Shuold we disable the killing spree an
 DISABLE_STICKY_ITEM = true             -- Should we disable the sticky item button in the quick buy area?
 SKIP_TEAM_SETUP = true                 -- Should we skip the team setup entirely?
 ENABLE_AUTO_LAUNCH = true               -- Should we automatically have the game complete team setup after AUTO_LAUNCH_DELAY seconds?
-AUTO_LAUNCH_DELAY = 30                  -- How long should the default team selection launch timer be?  The default for custom games is 30.  Setting to 0 will skip team selection.
+AUTO_LAUNCH_DELAY = 0                  -- How long should the default team selection launch timer be?  The default for custom games is 30.  Setting to 0 will skip team selection.
 LOCK_TEAM_SETUP = false                 -- Should we lock the teams initially?  Note that the host can still unlock the teams 
 
 
@@ -226,7 +226,7 @@ USE_AUTOMATIC_PLAYERS_PER_TEAM = false   -- Should we set the number of players 
 
 CUSTOM_TEAM_PLAYER_COUNT = {}           -- If we're not automatically setting the number of players per team, use this table
 CUSTOM_TEAM_PLAYER_COUNT[DOTA_TEAM_GOODGUYS] = 5
-CUSTOM_TEAM_PLAYER_COUNT[DOTA_TEAM_BADGUYS]  =	5
+CUSTOM_TEAM_PLAYER_COUNT[DOTA_TEAM_BADGUYS]  = 0
 CUSTOM_TEAM_PLAYER_COUNT[DOTA_TEAM_CUSTOM_1] = 0
 CUSTOM_TEAM_PLAYER_COUNT[DOTA_TEAM_CUSTOM_2] = 0
 CUSTOM_TEAM_PLAYER_COUNT[DOTA_TEAM_CUSTOM_3] = 0
